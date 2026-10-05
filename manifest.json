@@ -1,0 +1,60 @@
+{
+  "built_at": "2026-10-05T08:46:10.421Z",
+  "files": {
+    "malware-signatures.json": {
+      "version": 20261005,
+      "updated": "2026-10-05",
+      "bytes": 57462,
+      "sha256": "5a3ac451aa0fcde239712eb23c7d35db436def312023107203088f65f5939c99"
+    },
+    "malware-hashes-core.json": {
+      "version": 20261005,
+      "updated": "2026-10-05",
+      "bytes": 388890,
+      "sha256": "d2ef8b0da7cc4a77f82ed52e4ba34332b4299dac46246e56fd0a58d98f4b698a"
+    },
+    "malware-iocs.json": {
+      "version": 20261005,
+      "updated": "2026-10-05",
+      "bytes": 55839,
+      "sha256": "c905f648e84d930b4f1660f834e57adea9e7464e43ab63ca3290a222d9f89dbb"
+    }
+  },
+  "entries": {
+    "signatures": 655,
+    "hashes": 3228,
+    "iocs": 851
+  },
+  "sources": {
+    "signatures": [
+      "curated",
+      "assoechap"
+    ],
+    "hashes": [
+      "curated",
+      "assoechap"
+    ],
+    "iocs": [
+      "bundled stalkerware (malware-signatures.json)",
+      "Amnesty MVT / Citizen Lab (via build-iocs.js)",
+      "MVT: NSO Group Pegasus",
+      "MVT: Predator Spyware",
+      "MVT: RCS Lab Spyware",
+      "MVT: Stalkerware",
+      "MVT: Surveillance campaign linked to mercenary spyware compa",
+      "MVT: Quadream KingSpawn",
+      "MVT: Operation Triangulation",
+      "MVT: WyrmSpy and DragonEgg",
+      "MVT: Wintego Helios",
+      "MVT: NoviSpy",
+      "MVT: EagleMsgSpy",
+      "MVT: Candiru",
+      "MVT: ResidentBat",
+      "MVT: Cellebrite",
+      "MVT: DarkSword",
+      "MVT: Coruna",
+      "MVT: Morpheus",
+      "MVT: BTMOB"
+    ]
+  }
+}
