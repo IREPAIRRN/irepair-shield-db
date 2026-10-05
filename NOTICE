@@ -1,0 +1,57 @@
+iRepair Shield — third-party data notices
+===================================================
+
+The APK hash database (electron/malware-hashes-core.json, the hash-check.php online tier and the
+CSV produced by scripts/build-hashdb.js) is built from the open data sources below. Detection data
+only — no executable code or samples are redistributed, just SHA-256 digests with a family label.
+
+1. MalwareBazaar — abuse.ch
+   https://bazaar.abuse.ch
+   Licence: CC0 1.0 Universal (public-domain dedication). No attribution is legally required;
+   we credit abuse.ch anyway. Obtained through the MalwareBazaar API / export under abuse.ch's fair-use
+   rules: authenticated requests (free Auth-Key), a descriptive User-Agent, >= 1 request per second,
+   a hard per-run request cap, and no hammering after HTTP 429. Verify the current terms at
+   https://bazaar.abuse.ch/api/ before running a large ingestion.
+
+2. stalkerware-indicators — Coalition Against Stalkerware / AssoEchap (Echap)
+   https://github.com/AssoEchap/stalkerware-indicators  (samples.csv, ioc.yaml)
+   Licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+   https://creativecommons.org/licenses/by/4.0/
+   ATTRIBUTION REQUIRED — this notice (and the "attribution" field inside malware-hashes-core.json)
+   must be kept wherever the derived hash data is distributed. Changes made: only the SHA-256, app name and
+   a severity/category label were kept; entries were de-duplicated and re-labelled.
+
+The advanced / mercenary-spyware IOC set (electron/malware-iocs.json and the set produced by
+scripts/build-iocs.js) adds, on top of source 2 above:
+
+3. Mobile Verification Toolkit indicators — Amnesty International Security Lab / mvt-project
+   https://github.com/mvt-project/mvt-indicators  (index: indicators.yaml)
+   https://github.com/AmnestyTech/investigations  (Pegasus / NSO Group, NoviSpy, Wintego Helios, …)
+   Indicators of compromise (STIX2) published by Amnesty International Security Lab and partners
+   (Citizen Lab, Meta, Google TAG, Lookout, Cisco Talos, iVerify, …) for Pegasus (NSO Group),
+   Predator (Intellexa), Candiru, RCS Lab, Quadream, NoviSpy and other campaigns, for DEFENSIVE
+   use. The daily pipeline (scripts/build-iocs.js) reads the public index and every github-hosted
+   STIX2 file it lists. Review each repository's own terms before redistribution; the per-set
+   attribution is carried in the "sources" field of malware-iocs.json. Changes made: only process
+   names, Android package ids and file paths that an on-device ADB screen can check were extracted
+   and validated; network indicators (domains/URLs/e-mails/IPs), certificates and hashes were not
+   used; values were de-duplicated and labelled. This is a known-indicator screen, NOT a forensic
+   clearance — see the caveat carried in malware-iocs.json and shown in the scan report.
+
+The package-name signature set (electron/malware-signatures.json and the set produced by
+scripts/build-signatures.js) merges the repo's curated entries with the stalkerware/watchware package
+names of source 2 above (AssoEchap stalkerware-indicators, CC BY 4.0 — attribution required, kept here).
+
+Publishing: the signed sets (plus this NOTICE) are published daily by .github/workflows/update-db.yml
+to the public repository IREPAIRRN/irepair-shield-db. Redistribution of that data must keep this file.
+
+Everything else (application code) is covered by the project's own licence.
+
+## libimobiledevice (iPhone support, not committed)
+
+The Windows installer may bundle the libimobiledevice command-line tools and their libraries
+(libimobiledevice, libusbmuxd, libplist, libimobiledevice-glue, libtatsu — https://libimobiledevice.org),
+licensed under the GNU LGPL v2.1, plus OpenSSL (Apache-2.0) and MinGW runtime DLLs. They are sourced and
+placed in vendor/libimobiledevice/<platform>-<arch>/ by the maintainer (see that folder's README); none are in
+this repository. Keep this notice with any release that ships them; the tools are used unmodified as separate
+executables.
