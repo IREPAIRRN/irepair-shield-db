@@ -2,6 +2,11 @@
 
 What changed in each automated update, newest first. Counts only — the exact entries are in the commit diff.
 
+## 2026-10-07 · 21:44 UTC
+
+- **APK hashes**: +100 / −0 (now 3,328)
+  - added — Unknown 92, Mirai 3, BtmobRAT 1, CECbot 1, GhostRAT 1, IRATA 1, +1 more
+
 ## 2026-10-07 · 21:15 UTC
 
 - **e-mail accounts**: +65 / −0 (now 65)
