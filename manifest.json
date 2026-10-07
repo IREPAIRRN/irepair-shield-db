@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-07T11:07:14.362Z",
+  "built_at": "2026-10-07T21:15:01.353Z",
   "files": {
     "malware-signatures.json": {
       "version": 20261007,
@@ -16,20 +16,21 @@
     "malware-iocs.json": {
       "version": 20261007,
       "updated": "2026-10-07",
-      "bytes": 598149,
-      "sha256": "3719b8d0661f4ce1bb3b70ca39a36e4e7d79d0fba1cff4a26d419ff48cf166ca"
+      "bytes": 603572,
+      "sha256": "2a5b39c12ab49553db19a934c585486d7d80ed05bfae9001ec4cfd90a9417c78"
     }
   },
   "entries": {
     "signatures": 655,
     "hashes": 3228,
-    "iocs": 7394
+    "iocs": 7459
   },
   "ioc_breakdown": {
     "packages": 719,
     "processes": 83,
     "paths": 49,
-    "domains": 6543
+    "domains": 6543,
+    "emails": 65
   },
   "sources": {
     "signatures": [
@@ -43,6 +44,7 @@
     "iocs": [
       "bundled stalkerware (malware-signatures.json)",
       "Amnesty MVT / Citizen Lab (via build-iocs.js)",
+      "AssoEchap stalkerware-indicators (CC BY 4.0)",
       "MVT: NSO Group Pegasus",
       "MVT: Predator Spyware",
       "MVT: RCS Lab Spyware",
@@ -59,8 +61,7 @@
       "MVT: Cellebrite",
       "MVT: DarkSword",
       "MVT: Coruna",
-      "MVT: Morpheus",
-      "MVT: BTMOB"
+      "MVT: Morpheus"
     ]
   }
 }

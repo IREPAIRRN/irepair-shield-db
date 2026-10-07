@@ -47,6 +47,12 @@ to the public repository IREPAIRRN/irepair-shield-db. Redistribution of that dat
 
 Everything else (application code) is covered by the project's own licence.
 
+## Methods (no third-party code or data)
+
+The shutdown.log analysis (electron/shutdownLog.js) is an independent implementation of the publicly described
+"iShutdown" method (Kaspersky GReAT, 2024) and of the shutdown-log check in Amnesty's Mobile Verification Toolkit.
+No code from either project is included.
+
 ## libimobiledevice (iPhone support, not committed)
 
 The Windows installer may bundle the libimobiledevice command-line tools and their libraries
