@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-07T21:15:01.353Z",
+  "built_at": "2026-10-07T21:44:14.098Z",
   "files": {
     "malware-signatures.json": {
       "version": 20261007,
@@ -10,8 +10,8 @@
     "malware-hashes-core.json": {
       "version": 20261007,
       "updated": "2026-10-07",
-      "bytes": 388890,
-      "sha256": "e613c85af3fe0080971ccc6d7fbb91ab1c60ba383f2acf5954325c55d18bcfe2"
+      "bytes": 400340,
+      "sha256": "5fc6fd72091a229e877398ee50901e4cc3814eea0e01d55c97b81e1fc02c1442"
     },
     "malware-iocs.json": {
       "version": 20261007,
@@ -22,7 +22,7 @@
   },
   "entries": {
     "signatures": 655,
-    "hashes": 3228,
+    "hashes": 3328,
     "iocs": 7459
   },
   "ioc_breakdown": {
@@ -39,7 +39,8 @@
     ],
     "hashes": [
       "curated",
-      "assoechap"
+      "assoechap",
+      "malwarebazaar"
     ],
     "iocs": [
       "bundled stalkerware (malware-signatures.json)",
