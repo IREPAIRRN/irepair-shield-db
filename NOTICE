@@ -61,3 +61,14 @@ licensed under the GNU LGPL v2.1, plus OpenSSL (Apache-2.0) and MinGW runtime DL
 placed in vendor/libimobiledevice/<platform>-<arch>/ by the maintainer (see that folder's README); none are in
 this repository. Keep this notice with any release that ships them; the tools are used unmodified as separate
 executables.
+
+iPhone support binaries (libimobiledevice)
+-------------------------------------------
+The installer ships the libimobiledevice command-line tools and libraries in
+resources/libimobiledevice/win32-x64/: libimobiledevice 1.4.0, libtatsu 1.0.5 and ideviceinstaller 1.2.0 compiled
+from their official release tarballs by .github/workflows/build-libimobiledevice.yml, plus MSYS2's builds of
+libplist 2.7.0, libimobiledevice-glue 1.3.2, libusbmuxd 2.1.1, OpenSSL, libzip, zlib, zstd, xz and bzip2.
+Libraries LGPL-2.1-or-later, tools GPL-2.0-or-later (OpenSSL Apache-2.0; others as stated). They are separate,
+unmodified programs that iRepair Shield runs. That folder holds every licence text (LICENSE-*.txt), the exact
+upstream source tarballs, SOURCES.txt (origin, versions, SHA-256 and a written offer for the complete corresponding
+source) and BUILDINFO.txt.
