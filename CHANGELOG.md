@@ -2,6 +2,11 @@
 
 What changed in each automated update, newest first. Counts only — the exact entries are in the commit diff.
 
+## 2026-10-10 · 10:38 UTC
+
+- **domains**: +2 / −0 (now 6,545)
+  - added — Stalkerware 2
+
 ## 2026-10-09 · 11:21 UTC
 
 - **APK hashes**: +1 / −1 (now 3,328)
