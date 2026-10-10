@@ -10,15 +10,15 @@ di spyware mercenario. Viene ricostruito, firmato e pubblicato qui ogni giorno i
 
 ## Today
 
-Last build: **2026-10-09 11:21 UTC**
+Last build: **2026-10-10 10:38 UTC**
 
 | File | What it holds | Entries | Version |
 |---|---|---:|---|
-| `malware-signatures.json` | Android package names of known stalkerware / malware | 655 | v20261009 |
-| `malware-hashes-core.json` | SHA-256 of known malicious Android APKs | 3,328 | v20261009 |
-| `malware-iocs.json` | Indicators of stalkerware and mercenary spyware (Android + iPhone) | 7,459 | v20261009 |
+| `malware-signatures.json` | Android package names of known stalkerware / malware | 655 | v20261010 |
+| `malware-hashes-core.json` | SHA-256 of known malicious Android APKs | 3,328 | v20261010 |
+| `malware-iocs.json` | Indicators of stalkerware and mercenary spyware (Android + iPhone) | 7,461 | v20261010 |
 
-Indicators by kind: 719 app packages · 83 process names · 49 file paths · 6,543 domains · 65 e-mail accounts.
+Indicators by kind: 719 app packages · 83 process names · 49 file paths · 6,545 domains · 65 e-mail accounts.
 
 What changed day by day: [CHANGELOG.md](CHANGELOG.md).
 
