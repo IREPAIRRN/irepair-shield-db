@@ -2,6 +2,12 @@
 
 What changed in each automated update, newest first. Counts only — the exact entries are in the commit diff.
 
+## 2026-10-11 · 10:51 UTC
+
+- **APK hashes**: +7 / −7 (now 3,328)
+  - added — Unknown 7
+  - removed — Unknown 7
+
 ## 2026-10-10 · 10:38 UTC
 
 - **domains**: +2 / −0 (now 6,545)
