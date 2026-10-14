@@ -1,23 +1,23 @@
 {
-  "built_at": "2026-10-13T11:51:44.189Z",
+  "built_at": "2026-10-14T09:33:31.940Z",
   "files": {
     "malware-signatures.json": {
-      "version": 20261013,
-      "updated": "2026-10-13",
+      "version": 20261014,
+      "updated": "2026-10-14",
       "bytes": 57462,
-      "sha256": "5d971e0ace7a370694effeaf53cbf7d9be30c0fd1546fbcea68fb6bc542a09d5"
+      "sha256": "f3d87fad54014adffcea190bfd2eb1e5e88f119aa0e652c960ceddb11e949832"
     },
     "malware-hashes-core.json": {
-      "version": 20261013,
-      "updated": "2026-10-13",
+      "version": 20261014,
+      "updated": "2026-10-14",
       "bytes": 400326,
-      "sha256": "18280d4b9aafd358d55843724ed8ab25838b8f01e9f0f88505b3c496cabeb2b7"
+      "sha256": "8c3d9306b4e55b46160970c607b966b262277dc6d0a56d8eddb3c238ef620a8f"
     },
     "malware-iocs.json": {
-      "version": 20261013,
-      "updated": "2026-10-13",
+      "version": 20261014,
+      "updated": "2026-10-14",
       "bytes": 603704,
-      "sha256": "386fd6ffbe2a234a28bb81f56968dfef5fca90b1c1ff7192f6b0827ef3d1b93d"
+      "sha256": "ccd00f8d22997e868fe561d04bd9cd8ab293e6aef698e66630716a752c886c15"
     }
   },
   "entries": {
