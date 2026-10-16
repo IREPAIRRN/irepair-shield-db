@@ -72,3 +72,11 @@ Libraries LGPL-2.1-or-later, tools GPL-2.0-or-later (OpenSSL Apache-2.0; others 
 unmodified programs that iRepair Shield runs. That folder holds every licence text (LICENSE-*.txt), the exact
 upstream source tarballs, SOURCES.txt (origin, versions, SHA-256 and a written offer for the complete corresponding
 source) and BUILDINFO.txt.
+
+The browser check (webDomains inside malware-iocs.json, built by scripts/web-feeds.js) adds:
+
+4. ThreatFox and URLhaus — abuse.ch
+   https://threatfox.abuse.ch  https://urlhaus.abuse.ch
+   Licence: CC0 1.0 Universal. Obtained through the abuse.ch APIs with a free Auth-Key (the same key as
+   MalwareBazaar), a descriptive User-Agent and one request per source per day. Only host names are kept,
+   with a label and the date they were last seen; entries expire after 90 days.
