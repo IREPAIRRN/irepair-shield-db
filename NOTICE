@@ -80,3 +80,13 @@ The browser check (webDomains inside malware-iocs.json, built by scripts/web-fee
    Licence: CC0 1.0 Universal. Obtained through the abuse.ch APIs with a free Auth-Key (the same key as
    MalwareBazaar), a descriptive User-Agent and one request per source per day. Only host names are kept,
    with a label and the date they were last seen; entries expire after 90 days.
+
+5. HaGeZi DNS Blocklists — Pop-Up Ads and Threat Intelligence Feeds (TIF)
+   https://github.com/hagezi/dns-blocklists
+   Pop-up/ad, scam and threat host data: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0)
+   Used with the author's permission (hagezi/dns-blocklists#11938). Licence: GNU General Public License v3.0; the
+   full text is published next to the lists (LICENSE-HAGEZI-GPL-3.0.txt). The lists are redistributed as separate
+   data files (webhosts-*.txt) with their original header and notices; they are converted (lower-cased, invalid
+   lines dropped, de-duplicated, sorted), and each file says so with the date of the conversion. iRepair Shield
+   reads them as data at runtime; provided as-is, without warranty (GPL-3.0 sections 15-16). A match is shown as
+   "on a pop-up / ad list" or "on a threat intelligence list", never as proof of malware.

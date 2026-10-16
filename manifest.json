@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-16T09:04:09.956Z",
+  "built_at": "2026-10-16T11:54:37.699Z",
   "files": {
     "malware-signatures.json": {
       "version": 20261016,
@@ -16,8 +16,8 @@
     "malware-iocs.json": {
       "version": 20261016,
       "updated": "2026-10-16",
-      "bytes": 796991,
-      "sha256": "0b0f6b78a53fb940496da9e080004e1ff405ba324603df2f211e8b6bd57fe4f0"
+      "bytes": 803461,
+      "sha256": "e9cc0464e5746dfb7a6fbc88e51b2ee2a951f98d352c90cc2e540b4951210537"
     }
   },
   "entries": {
@@ -64,5 +64,24 @@
       "MVT: Cellebrite",
       "MVT: DarkSword"
     ]
-  }
+  },
+  "webhosts": {
+    "tif": {
+      "file": "webhosts-tif.txt",
+      "version": 20261016,
+      "updated": "2026-10-16",
+      "count": 1562619,
+      "bytes": 27042763,
+      "sha256": "a5917db72f343decd58c56652f9cbd37f73372b41e228f5085c104c6e780970b"
+    },
+    "popupads": {
+      "file": "webhosts-popupads.txt",
+      "version": 20261016,
+      "updated": "2026-10-16",
+      "count": 47073,
+      "bytes": 800664,
+      "sha256": "4119b3ec8ac33ff242760049e532bfa7f04f71ef0404a8def260cb8208704dfb"
+    }
+  },
+  "webhosts_attribution": "Pop-up/ad, scam and threat host data: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0)"
 }
