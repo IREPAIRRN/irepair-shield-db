@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-16T06:16:18.277Z",
+  "built_at": "2026-10-16T09:04:09.956Z",
   "files": {
     "malware-signatures.json": {
       "version": 20261016,
@@ -16,8 +16,8 @@
     "malware-iocs.json": {
       "version": 20261016,
       "updated": "2026-10-16",
-      "bytes": 795580,
-      "sha256": "b70ebecdac6252fd2f4f39a964b0bf9689700f4f69aeaf0eab0a98ec0a3622de"
+      "bytes": 796991,
+      "sha256": "0b0f6b78a53fb940496da9e080004e1ff405ba324603df2f211e8b6bd57fe4f0"
     }
   },
   "entries": {
