@@ -10,7 +10,7 @@ di spyware mercenario. Viene ricostruito, firmato e pubblicato qui ogni giorno i
 
 ## Today
 
-Last build: **2026-10-16 09:04 UTC**
+Last build: **2026-10-16 11:54 UTC**
 
 | File | What it holds | Entries | Version |
 |---|---|---:|---|
@@ -49,6 +49,15 @@ Indicators:
 - ThreatFox abuse.ch (CC0)
 - URLhaus abuse.ch (CC0)
 - Amnesty International Security Lab and partners — Mobile Verification Toolkit indicator sets, including: NSO Group Pegasus, Predator Spyware, RCS Lab Spyware, Stalkerware, Surveillance campaign linked to mercenary spyware compa…, Quadream KingSpawn, Operation Triangulation, WyrmSpy and DragonEgg, Wintego Helios, NoviSpy, EagleMsgSpy, Candiru, ResidentBat, Cellebrite, DarkSword
+
+Browser-check host lists (`webhosts-*.txt`, used only to compare the sites a phone's browser lets send
+notifications; a match is "on a pop-up / ad list" or "on a threat intelligence list", never proof of malware):
+- Pop-up/ad, scam and threat host data: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0)
+  - `webhosts-tif.txt`: 1,562,619 domains, v20261016
+  - `webhosts-popupads.txt`: 47,073 domains, v20261016
+- These files are redistributed under GPL-3.0 with the author's permission; the licence text is in
+  [LICENSE-HAGEZI-GPL-3.0.txt](LICENSE-HAGEZI-GPL-3.0.txt). Each file keeps HaGeZi's original header and states
+  that it was converted (normalised and sorted) and when.
 
 ## How the app uses it
 
