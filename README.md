@@ -10,13 +10,13 @@ di spyware mercenario. Viene ricostruito, firmato e pubblicato qui ogni giorno i
 
 ## Today
 
-Last build: **2026-10-15 09:11 UTC**
+Last build: **2026-10-16 06:16 UTC**
 
 | File | What it holds | Entries | Version |
 |---|---|---:|---|
-| `malware-signatures.json` | Android package names of known stalkerware / malware | 655 | v20261015 |
-| `malware-hashes-core.json` | SHA-256 of known malicious Android APKs | 3,328 | v20261015 |
-| `malware-iocs.json` | Indicators of stalkerware and mercenary spyware (Android + iPhone) | 7,461 | v20261015 |
+| `malware-signatures.json` | Android package names of known stalkerware / malware | 655 | v20261016 |
+| `malware-hashes-core.json` | SHA-256 of known malicious Android APKs | 3,328 | v20261016 |
+| `malware-iocs.json` | Indicators of stalkerware and mercenary spyware (Android + iPhone) | 7,461 | v20261016 |
 
 Indicators by kind: 719 app packages · 83 process names · 49 file paths · 6,545 domains · 65 e-mail accounts.
 
@@ -46,7 +46,9 @@ APK hashes:
 Indicators:
 - The stalkerware package signatures above
 - AssoEchap / Coalition Against Stalkerware — stalkerware-indicators (CC BY 4.0)
-- Amnesty International Security Lab and partners — Mobile Verification Toolkit indicator sets, including: NSO Group Pegasus, Predator Spyware, RCS Lab Spyware, Stalkerware, Surveillance campaign linked to mercenary spyware compa…, Quadream KingSpawn, Operation Triangulation, WyrmSpy and DragonEgg, Wintego Helios, NoviSpy, EagleMsgSpy, Candiru, ResidentBat, Cellebrite, DarkSword, Coruna, Morpheus
+- ThreatFox abuse.ch (CC0)
+- URLhaus abuse.ch (CC0)
+- Amnesty International Security Lab and partners — Mobile Verification Toolkit indicator sets, including: NSO Group Pegasus, Predator Spyware, RCS Lab Spyware, Stalkerware, Surveillance campaign linked to mercenary spyware compa…, Quadream KingSpawn, Operation Triangulation, WyrmSpy and DragonEgg, Wintego Helios, NoviSpy, EagleMsgSpy, Candiru, ResidentBat, Cellebrite, DarkSword
 
 ## How the app uses it
 
