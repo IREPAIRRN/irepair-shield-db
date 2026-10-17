@@ -1,10 +1,10 @@
 # iRepair Shield web-host list: HaGeZi Pop-Up Ads
 # Source: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0, see LICENSE-HAGEZI-GPL-3.0.txt)
-# Modified: converted by the iRepair Shield build on 2026-10-16 (lower-cased, invalid lines dropped: 0, duplicates removed, sorted); entries otherwise unchanged
+# Modified: converted by the iRepair Shield build on 2026-10-17 (lower-cased, invalid lines dropped: 0, duplicates removed, sorted); entries otherwise unchanged
 # Shield-List: popupads
-# Shield-Version: 20261016
-# Shield-Updated: 2026-10-16
-# Shield-Count: 47073
+# Shield-Version: 20261017
+# Shield-Updated: 2026-10-17
+# Shield-Count: 47119
 # --- original header ---
 # Title: HaGeZi's Pop-Up Ads - stops annoying and malicious pop-ups!
 # Description: Targets pop-up ads that range from annoying to outright malicious.
@@ -13,10 +13,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 16 Oct 2026 08:24 UTC
-# Version: 2026.1016.0824.06
+# Last modified: 16 Oct 2026 21:32 UTC
+# Version: 2026.1016.2132.28
 # Syntax: Domains (without subdomains)
-# Number of entries: 47073
+# Number of entries: 47119
 #
 0--4.com
 0--d.com
@@ -6893,6 +6893,7 @@ aksfkedagaz.com
 aksia.co
 aksovxgafdu.in
 aksoxtasvs.com
+aksqpawitxar.in
 aksvougxccpvg.online
 akucord.com
 akupmhxbzdhau.space
@@ -9096,7 +9097,6 @@ bartramagynous.com
 barytemarkup.com
 barytethynnid.com
 base-dawgz.web.app
-base.shop
 baseballletters.com
 basednewsarticle.com
 basejudgementquizmaster.com
@@ -12250,6 +12250,7 @@ chivalrouscalmlymexican.com
 chivalrousreschedule.com
 chivalroussecond.com
 chiveraccede.com
+chiyouranai.base.shop
 chl3.net
 chl7rysobc3ol6xla.com
 chlnxdsbxcobb.com
@@ -20513,6 +20514,7 @@ gnskjljmgzp.com
 gnutplhbojrfe.site
 gnysfyohlvf.com
 go-g3t-push.net
+go-get-some.com
 go-ld-li-ne.site
 go-static.info
 go-todesk.hl.cn
@@ -33760,6 +33762,7 @@ potionsdonkey.com
 potomacsprats.com
 potsaglu.net
 potseeshi.net
+potskolu.net
 potslascivious.com
 potwm.com
 pouchedathelia.com
@@ -38725,6 +38728,7 @@ soft-pants.com
 soft-resist.com
 soft.awaysoft.com
 softaignidsoom.net
+softalliance.org
 softat.homes
 softballabnegatemailman.com
 softboxik1.ru
@@ -40138,6 +40142,7 @@ sysgtjoki.com
 sysmeasuring.net
 sysoutvariola.com
 system-update-new-2021.com
+systemboosthub.com
 systeme-business.online
 systemleadb.com
 systemsupport.pages.dev
@@ -41012,6 +41017,7 @@ tiktakz.xyz
 tiktok-fly.com
 tiktokcdn1.xyz
 tikva-1.com
+tiladlolbtu.in
 tilaghwpas.com
 tilecockpitrectangle.com
 tilqwekuszfa.com
@@ -41233,6 +41239,7 @@ tokimekimaildesu.net
 tokimekitaine.net
 tokopatcaftans.cyou
 toksoudsoab.net
+tokujiro.base.shop
 tokujirou.stores.jp
 tokumeichat135.net
 tokumeichatmail.net
@@ -42387,6 +42394,7 @@ ulpradvpeaiqs.store
 ulqmotgloet.com
 ultimate-captcha.com
 ultimate-discounter.org
+ultimateaderaser.com
 ultimatebowlingguide.com
 ultimateloveline.com
 ultrabit.ws
@@ -42790,6 +42798,7 @@ ur.ventraldiets.com
 uraaka.net
 uralicchatot.com
 urami.net
+uranai1111.base.shop
 uranaikan.com
 urara02032023.com
 urban-signal.pro
@@ -45147,6 +45156,7 @@ wufazpappk.com
 wugoji.xyz
 wugroansaghadry.com
 wuhanjiu.org
+wujingou.com
 wukcvtbrlyrxd.store
 wukqjl.com
 wuliang-yeah.com
@@ -45175,6 +45185,7 @@ wuytj.com
 wuytl.com
 wuytm.com
 wuytv.com
+wuyvamwe.com
 wuzbhjpvsf.com
 wv.filpili.com
 wv.slilymatweed.com
@@ -45230,6 +45241,7 @@ www-slash.co.com
 www.8zcr.nthnba.cn
 www.aestheticdoctors.com.mx
 www.aidiet.co.in
+www.app.77886.vip
 www.artsyrose.org.uk
 www.baidu.photos.com.moyan.cc
 www.bearandnancy.co.uk
@@ -45245,6 +45257,7 @@ www.fifthwall.com.au
 www.gacorbro.briiilantsdate.com
 www.germanprobatematters.co.uk
 www.golocalconctruction.com.au
+www.gzn.svod.cn
 www.helmhorizon.com.au
 www.j.xinguoyeya.cn
 www.kekwvl.romantiidate.com
@@ -45407,6 +45420,7 @@ xa.boozierosmotic.com
 xa.poringa.net
 xa6gmivfp.com
 xaabb.com
+xaacmotxhjji.xyz
 xacnaycpammes.com
 xacorchulc.in
 xacueuvxng.com
@@ -45492,11 +45506,13 @@ xdtraffic.com
 xe.bragiteendured.com
 xebetp.icu
 xebfomhenqxin.online
+xedaifojosm.net
 xeeqpuzd.com
 xegxxzcluwfqo.website
 xeitnipcoefge.store
 xelccnvspi.com
 xembongda-xoilac.online
+xemwmuayozxti.space
 xenongamers.com
 xeoviuozdirmh.com
 xequythaoquynhon.com
@@ -45533,6 +45549,7 @@ xgoxwcldkz.top
 xgozhrjmwwgxf.site
 xgraph.net
 xh.pruigosozin.com
+xhabbeulalnqtd.com
 xhcdaygcefbcz.com
 xhfhavppnxent.online
 xhivjkfghj.com
@@ -45541,6 +45558,7 @@ xhovaqdubabj.com
 xhoxataf.in
 xhrdckormsrmyxj.com
 xhrhamnlzddyk.space
+xhulabvlf.com
 xhumfuovpduz.com
 xhupcewu.in
 xi.baldscatkins.com
@@ -45569,6 +45587,7 @@ xiixzsaxlirtn.site
 ximybkpxwu.com
 xincaibanjia.com
 xindongli99.cn
+xineday.com
 xingchenhuyu.com
 xingfabuhang.com
 xingkong-xksports.com
@@ -45642,6 +45661,7 @@ xlviirdr.com
 xlvirdr.com
 xlx1.com
 xlxba.com
+xlyyzx.sbs
 xm.geslingclime.shop
 xm.luckengiants.com
 xm.plumbicwooler.com
@@ -45665,6 +45685,7 @@ xmlwolf.com
 xmnyjz.com
 xmoasrtcac.in
 xmordawxqgq.com
+xmpay.one
 xmrig.net
 xms.lol
 xmsflzmygw.com
@@ -45738,6 +45759,7 @@ xpfyasmhwif.net
 xphbdyssvpdlfkt.com
 xpigicmmawub.com
 xpmpshghkdxf.net
+xpnddqcfoittu.com
 xpollo.com
 xpornvid.com
 xppedsonpcwzu.website
@@ -45747,16 +45769,19 @@ xpsidhdv.com
 xpuhixfi.in
 xpvv0rkn.fun
 xpwpkuexwpakf.store
+xqhnphakkcv.com
 xqlshjpbgt.com
 xqmizurfyle.com
 xqqsfeipxeefv.store
 xqqxmhdbtbbetfm.com
+xqtoisaowmys.net
 xqyvdjuhophgfm.com
 xrbeajuc.com
 xrdkvfyxhljmvo.com
 xrfashvbmstojf.com
 xrggwzewhf.com
 xrhgg.net
+xriahrofno.com
 xritipdme.com
 xriwisjrek.in
 xrlbpwupwj.com
@@ -45801,6 +45826,7 @@ xtreff69.com
 xtremeviewing.com
 xtriks.com
 xtroglobal.com
+xtsbyg.com
 xtskuuvsfpsvdh.com
 xttaff.com
 xttklh.icu
@@ -45843,6 +45869,7 @@ xvflgjgrlr.com
 xviperonec.com
 xvjkgdognivuwry.com
 xvlnewayd.net
+xvmyvbwgqnk.com
 xvoqhsefm.net
 xvpqmcgf.com
 xvpyusgbfa.com
@@ -45850,6 +45877,7 @@ xvqidgxfdsxbe.store
 xvqukocdtvsfuw.com
 xvu19.com
 xvuslink.com
+xvusmbeorbwwrb.com
 xw.agatineorder.com
 xw.frokincrests.com
 xw.stulmunshent.com
@@ -45949,6 +45977,7 @@ yafctntxj.com
 yagotron.com
 yagrotomo.com
 yahscripturesauthors.org
+yajeinsogged.shop
 yakacikescort2.xyz
 yamanaisleepry.com
 yamscharnel.com
@@ -46026,6 +46055,7 @@ ycvlvgcuaxtem.website
 yd.audioshelvine.com
 yd.riemvocule.com
 yd.valveguaruan.com
+ydaaayl008.me
 ydbvxdrfblu.com
 yddgcj.com
 ydjtykzkwwcclo.com
@@ -46048,7 +46078,10 @@ yellowishrise.pro
 yellowprotection.com
 yencw.com
 yenntsokvugsceo.com
+yeoihnlubd.com
+yeotcpytcq.xyz
 yepgfsxto.net
+yeptwbtalkfug.xyz
 yequiremuke.com
 yernbiconic.com
 yes-messenger.com
@@ -46092,6 +46125,7 @@ yhjzqlnhlxxms.space
 yhklywebqmslkaf.net
 yhktexeofaxhk.com
 yhmqcuzbgzuix.space
+yhmugtdyhziys.space
 yhyssylixpkdu.com
 yi.gekkoforehew.shop
 yibivacaji.com
@@ -46164,6 +46198,7 @@ yllix.com
 ylogepubxynzu.space
 ylwmgibcgfs.com
 ylx-1.com
+ylx-2.com
 ylx-3.com
 ylx-4.com
 ylyjyzoxrhybw.online
@@ -46179,6 +46214,7 @@ ymcw.com
 ymehnthakutyfor.com
 ymetrika.site
 ymmobi.com
+ympgpaldtpie.com
 ymqzwqoqkudq.com
 ymrghezhbhfie.website
 ymrhukgr.com
@@ -46190,6 +46226,7 @@ ynbdm.cn
 ynbsakxipni.net
 yncddpjquwij.net
 yndnnwoidueqsd.com
+ynpduaquco.xyz
 ynrije.com
 ynrwubpirmtv.com
 yntvrgqkwlwag.site
@@ -46315,6 +46352,7 @@ ype7.com
 ypgfrdasphgre.online
 ypiohesltiqrj.space
 ypkognfvwbotwf.com
+ypmrpjxi.com
 ypptv.com
 ypv4y.777269.com
 ypwcttlciuuzu.online
@@ -46344,6 +46382,7 @@ yrniodic.com
 yrptbwncq.com
 yrqfyofdgwq.com
 yrqwdbahejizo.website
+yrsaivdqlavxta.xyz
 yrtwyzzmrcmzm.online
 ys.euclaseselenic.com
 ys.outfeatjamshid.com
@@ -46351,6 +46390,7 @@ ys.vanwardgnarl.com
 ys4uc.777956.com
 ysdqww.com
 ysesials.net
+ysjllgyoodrjkb.com
 ysksv.com
 yslatcslenq.com
 yslsymovnkkjl.site
@@ -46581,6 +46621,7 @@ zb.prostsouther.com
 zb.silvasgetfd.com
 zbhq.com
 zbqcovoprjruz.website
+zbuztpvgfghmu.space
 zbykhvhni.com
 zbzqgm.com
 zc.kinonenaughts.shop
@@ -46621,10 +46662,12 @@ zeebestmarketing.com
 zeechoog.net
 zeekaihu.net
 zeelooshashey.net
+zeemauwoufug.net
 zeemoavaustoazy.com
 zeenko.shop
 zeenm.com
 zeepartners.com
+zeestairaicoque.com
 zeetiptooglais.com
 zeeza.com
 zefuptohi.com
@@ -46891,6 +46934,7 @@ zoofaubogaujoo.net
 zoograithavaupy.net
 zoojoujoaseeh.com
 zoologyfibre.com
+zooloumasovay.net
 zoom188zeus.org
 zoomessytreatment.com
 zoomjetx.com
@@ -47033,6 +47077,7 @@ zw.ritzyinknot.qpon
 zw.squalmkazi.com
 zwaar.net
 zwaar.org
+zwebarvheahx.com
 zwftdkfbbjyydg.com
 zwnbtqsjcopel.space
 zwnoeqzsuz.com
@@ -47062,6 +47107,7 @@ zy.fetasstelled.com
 zy.phasedcleft.com
 zy.tizwinstigmal.com
 zybrdr.com
+zyf03k.xyz
 zyfcw.net
 zyhk17.com
 zyhzzhxnlnfdk.site
