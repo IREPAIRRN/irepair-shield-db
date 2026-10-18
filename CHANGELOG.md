@@ -2,6 +2,15 @@
 
 What changed in each automated update, newest first. Counts only — the exact entries are in the commit diff.
 
+## 2026-10-18 · 08:53 UTC
+
+- **package signatures**: +0 / −39 (now 616)
+  - removed — Android Botnet 1, Android RAT 1, AppMystique Adware 1, Baidu Spyware 1, BankDroid Trojan 1, Bitcoin Stealer 1, +33 more
+- **APK hashes**: +1 / −0 (now 3,329)
+  - added — Unknown 1
+- **app packages**: +0 / −39 (now 680)
+  - removed — Android Botnet 1, Android RAT 1, AppMystique Adware 1, Baidu Spyware 1, BankDroid Trojan 1, Bitcoin Stealer 1, +33 more
+
 ## 2026-10-17 · 08:36 UTC
 
 - **APK hashes**: +3 / −3 (now 3,328)
