@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-19T09:58:02.371Z",
+  "built_at": "2026-10-19T11:01:39.914Z",
   "files": {
     "malware-signatures.json": {
       "version": 20261019,
@@ -16,8 +16,8 @@
     "malware-iocs.json": {
       "version": 20261019,
       "updated": "2026-10-19",
-      "bytes": 894749,
-      "sha256": "702cdb85c6e43987ad520ba18cfd15102193cae5602ca0298a82baf3d657299a"
+      "bytes": 895380,
+      "sha256": "d2512e03d6f4aafb27aabd49a1bad49081b0a66c085210f7b8feeb1a516c243b"
     }
   },
   "entries": {
@@ -70,17 +70,17 @@
       "file": "webhosts-tif.txt",
       "version": 20261019,
       "updated": "2026-10-19",
-      "count": 2208554,
-      "bytes": 38602416,
-      "sha256": "8f3bdc96391c09acf5647fdfe2f11ff84e5da10bc6995f5b79aa8fc1f9588abf"
+      "count": 1793268,
+      "bytes": 31348884,
+      "sha256": "9446c9f0fc52d8dcc23295b57fb1fa5c21fc9e3aea823a9f2f034efb43bba13f"
     },
     "popupads": {
       "file": "webhosts-popupads.txt",
       "version": 20261019,
       "updated": "2026-10-19",
-      "count": 47668,
-      "bytes": 809184,
-      "sha256": "9f9f66fa76d19aa687d4bf3f24dc2af4ce49026efcae5c5d4e92264e9efee328"
+      "count": 47691,
+      "bytes": 809570,
+      "sha256": "21cd93cba8acb0a872e93f4f8865e44bafc52a3566d1fedb6b2813c55a4ffce1"
     }
   },
   "webhosts_attribution": "Pop-up/ad, scam and threat host data: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0)"
