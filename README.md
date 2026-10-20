@@ -10,13 +10,13 @@ di spyware mercenario. Viene ricostruito, firmato e pubblicato qui ogni giorno i
 
 ## Today
 
-Last build: **2026-10-19 11:01 UTC**
+Last build: **2026-10-20 09:28 UTC**
 
 | File | What it holds | Entries | Version |
 |---|---|---:|---|
-| `malware-signatures.json` | Android package names of known stalkerware / malware | 616 | v20261019 |
-| `malware-hashes-core.json` | SHA-256 of known malicious Android APKs | 3,330 | v20261019 |
-| `malware-iocs.json` | Indicators of stalkerware and mercenary spyware (Android + iPhone) | 7,422 | v20261019 |
+| `malware-signatures.json` | Android package names of known stalkerware / malware | 616 | v20261020 |
+| `malware-hashes-core.json` | SHA-256 of known malicious Android APKs | 3,335 | v20261020 |
+| `malware-iocs.json` | Indicators of stalkerware and mercenary spyware (Android + iPhone) | 7,422 | v20261020 |
 
 Indicators by kind: 680 app packages · 83 process names · 49 file paths · 6,545 domains · 65 e-mail accounts.
 
@@ -53,8 +53,8 @@ Indicators:
 Browser-check host lists (`webhosts-*.txt`, used only to compare the sites a phone's browser lets send
 notifications; a match is "on a pop-up / ad list" or "on a threat intelligence list", never proof of malware):
 - Pop-up/ad, scam and threat host data: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0)
-  - `webhosts-tif.txt`: 1,793,268 domains, v20261019
-  - `webhosts-popupads.txt`: 47,691 domains, v20261019
+  - `webhosts-tif.txt`: 1,793,268 domains, v20261020
+  - `webhosts-popupads.txt`: 47,691 domains, v20261020
 - These files are redistributed under GPL-3.0 with the author's permission; the licence text is in
   [LICENSE-HAGEZI-GPL-3.0.txt](LICENSE-HAGEZI-GPL-3.0.txt). Each file keeps HaGeZi's original header and states
   that it was converted (normalised and sorted) and when.
