@@ -2,6 +2,17 @@
 
 What changed in each automated update, newest first. Counts only — the exact entries are in the commit diff.
 
+## 2026-10-21 · 09:24 UTC
+
+- **package signatures**: +2 / −0 (now 618)
+  - added — EasyPhoneTrack 1, Stalkerware 1
+- **APK hashes**: +1 / −0 (now 3,336)
+  - added — Unknown 1
+- **app packages**: +2 / −0 (now 682)
+  - added — Stalkerware 2
+- **domains**: +3 / −0 (now 6,548)
+  - added — Stalkerware 3
+
 ## 2026-10-20 · 09:28 UTC
 
 - **APK hashes**: +5 / −0 (now 3,335)
