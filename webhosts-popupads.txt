@@ -1,10 +1,10 @@
 # iRepair Shield web-host list: HaGeZi Pop-Up Ads
 # Source: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0, see LICENSE-HAGEZI-GPL-3.0.txt)
-# Modified: converted by the iRepair Shield build on 2026-10-20 (lower-cased, invalid lines dropped: 0, duplicates removed, sorted); entries otherwise unchanged
+# Modified: converted by the iRepair Shield build on 2026-10-21 (lower-cased, invalid lines dropped: 0, duplicates removed, sorted); entries otherwise unchanged
 # Shield-List: popupads
-# Shield-Version: 20261020
-# Shield-Updated: 2026-10-20
-# Shield-Count: 47691
+# Shield-Version: 20261021
+# Shield-Updated: 2026-10-21
+# Shield-Count: 47715
 # --- original header ---
 # Title: HaGeZi's Pop-Up Ads - stops annoying and malicious pop-ups!
 # Description: Targets pop-up ads that range from annoying to outright malicious.
@@ -13,10 +13,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 19 Oct 2026 08:16 UTC
-# Version: 2026.1019.0816.15
+# Last modified: 20 Oct 2026 14:05 UTC
+# Version: 2026.1020.1405.49
 # Syntax: Domains (without subdomains)
-# Number of entries: 47691
+# Number of entries: 47715
 #
 0--4.com
 0--d.com
@@ -6719,7 +6719,6 @@ aiqidwcfrm.com
 aiqinzhubao.com
 air-look-send.com
 air-we4.com
-airairgu.com
 airbnb-pi-three.vercel.app
 airbornemiser.com
 airbornepensioneradversary.com
@@ -7709,6 +7708,7 @@ apostleurban.com
 apostrophesubdued.com
 app-aplell.com
 app-atomic.co.com
+app-changelly.net
 app-gala-games-online-3yhh6.com
 app-gamesonline-9zhq.com
 app-google-zh.hl.cn
@@ -7721,6 +7721,7 @@ app-wg.com
 app.corn-staging.com
 app.ebrafoster.com
 app.ehuaya.net
+app.phantomlocal.com
 app.suckmongif.com
 app6.cc
 app9888.com
@@ -7836,6 +7837,7 @@ aqdx2021.com
 aqfawlrhik.in
 aqhz.xyz
 aqiongxlma.com
+aqkdmicibfav.in
 aqkkoalfpz.com
 aqkqlshhyfmbf.store
 aqle3.com
@@ -8307,6 +8309,7 @@ ateratera.com
 atewig.com
 atgmzemuf.com
 atgogmvi.com
+atgpwurifh.in
 atgvmlnbtnlxl.website
 atheatmorchan.com
 atheegrun.net
@@ -8863,7 +8866,6 @@ azzorxpza.in
 azzpkuvm.in
 b-7.jp
 b-m.xyz
-b-short.link
 b-withyou.com
 b00abea511.6a70838881.com
 b00m.site
@@ -9890,6 +9892,7 @@ billwarning55.com
 billypub.com
 bilsoaphaik.net
 bilsyndication.com
+biltemadk.com
 bimbim.com
 bin-layer.de
 bin-tds.site
@@ -10232,6 +10235,7 @@ blushingbread.com
 blushinghappilyberenice.com
 blusterflintbig.com
 blusterhawspontaneous.com
+blxcrbaopbvvxk.com
 blzz.xyz
 bm-bluemoon.com
 bm.boodiecilice.rest
@@ -10596,6 +10600,7 @@ boyiinlove.com
 boymagicdate.com
 boyunakylie.com
 bp.donnerato.com
+bp44bqnvdb.com
 bp7mb11.top
 bpabmyodbtav.com
 bparcizapowm.com
@@ -10889,6 +10894,7 @@ brusklylawton.com
 brut.ooo
 brutalmathematics.com
 bruteportrait.com
+brutishlyfantasizeretorted.com
 brutishlylifevoicing.com
 brutus.clicknplay.to
 brxcioxve.com
@@ -12101,6 +12107,9 @@ chandlermore.com
 changeablecats.com
 changedevelopmentpeacock.com
 changeflamboyant.com
+changelly-en.at
+changelly.com.lc
+changelly.com.mx
 changely.at
 changengoaxolt.net
 changeofmarylebone.com
@@ -14177,6 +14186,7 @@ cursorltd.com
 cursorslibrary.com
 curtainscountingsnitch.com
 curtalreinvigorateauthority.com
+curtalsunipods.cfd
 curtcoracii.com
 curve-flnance.com
 curvedheldideal.com
@@ -15020,6 +15030,7 @@ demolishforbidhonorable.com
 demolishovercoat.com
 demolishwrestconclusions.com
 demolitionnutsgrease.com
+demonhunterz.com
 demonstrationleadershippatriot.com
 demonstudent.com
 demotearrogancegroin.com
@@ -16212,7 +16223,6 @@ dspretargeting.org
 dspultra.com
 dsraozxhfuifo.site
 dsreviews.net
-dstillery.com
 dsu-adguard.pro
 dsucpnsfxip.com
 dsultra.com
@@ -17145,6 +17155,7 @@ emulateworse.com
 emulationfastened.com
 emxdgt.com
 en-ledger.com
+en-leger.org
 en-mu-su-bi.com
 en.cackssandhog.com
 en.eblisflorula.com
@@ -19527,6 +19538,7 @@ fudyepnjxwmlm.online
 fudzceoandzhm.website
 fuelburns.com
 fuettjbytxvy.com
+fugitivequilt.com
 fuglaizid.net
 fugsslosher.com
 fuhrerstanking.com
@@ -20645,7 +20657,6 @@ go.go-srv.com
 go.gsrv.dev
 go.novirtb.com
 go.nsfwlivechat.com
-go.panotads.com
 go.qf3lfzqkktcd2auhx3xx3pzlxlj6j1nj.com
 go.redgifs.com
 go.roobet.com
@@ -25563,6 +25574,7 @@ kidobedientteeth.com
 kidomax.com
 kidsboilingbeech.com
 kidsevqhaudoi.store
+kihkudwal.in
 kihudevo.pro
 kijia.com
 kikmpahfaj.com
@@ -26464,7 +26476,9 @@ lectureolympics.com
 lecubzcgozcgk.one
 ledeedaugh.com
 ledgeadmitted.com
+ledger-nano.com
 ledger-wallet.gitlab.io
+ledger.net.cn
 ledgerapp.created.app
 ledgersso.created.app
 leedagauluz.net
@@ -27426,6 +27440,7 @@ lrmasmheotivr.com
 lrucqhpa.com
 lrwtsfkv.net
 lryocmakbqri.com
+lryojqlp.in
 lrziloubgdcfe.online
 ls.coccyxoasitic.top
 ls.mournthither.com
@@ -28632,6 +28647,7 @@ mgl.xyz
 mgladthereisso.com
 mgm50.com
 mgmecngr.com
+mgmylc.cc
 mgptijzevfuxj.space
 mgrafmxbsgjma.store
 mgsnicqdeydae.space
@@ -30720,6 +30736,7 @@ npcsgckzwswgs.site
 npcta.xyz
 npdhwhkrn.com
 npiramqanr.com
+npitaqvuwci.in
 npjsottvkqob.com
 npmkmnkjy.com
 npmnavtmhpxf.com
@@ -31999,6 +32016,7 @@ oq.stealthtooting.com
 oq.yowepitta.com
 oqbotdowrcr.in
 oqbowztarb.com
+oqbzwuamhwfy.in
 oqdgibwa.com
 oqdjincce.com
 oqfgyyjtodioh.com
@@ -32867,6 +32885,7 @@ pathsempowergate.com
 pathwayslife.care
 patienceinfluxdemon.com
 patientsaustralia.com
+patozdkidh.in
 patpkutfij.in
 patrickhalks.com
 patricksbutcherboyburgers.com
@@ -36093,6 +36112,7 @@ reate.info
 reaujwzwzkdih.store
 rebakebelage.com
 rebateai.com
+rebaterrecoupe.cyou
 rebelhen.com
 rebelliousallyprohibited.com
 rebelloworks.com
@@ -40213,6 +40233,7 @@ suggestbingo.com
 suggestionbridge.com
 suggestionswear.com
 suggilzanza.com
+sugochanloxl.in
 suguaitaina.com
 suguao.net
 suguap.net
@@ -42185,6 +42206,7 @@ trentbereal.com
 treoppom.in
 trepolan.com
 trewel.alveoleductile.help
+trezor-uk.at
 trezor.la
 trezorsafety.com
 trezorsuite.at
@@ -43190,6 +43212,7 @@ uovveljjaoxfe.store
 uoxmdhdsg.com
 uoxocwxakddyq.space
 up-community.wiki
+up-ledger.com
 up-loop.net
 up.ch3m1stry.com
 up.oxamidsummae.com
@@ -43331,6 +43354,7 @@ urtirepor.com
 urtyert.com
 ururgisha.net
 us-aliexpress.com
+us-changelly.com.co
 us.blooiehoiden.com
 us0704.com
 us2datee.com
