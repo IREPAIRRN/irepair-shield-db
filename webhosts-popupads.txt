@@ -1,10 +1,10 @@
 # iRepair Shield web-host list: HaGeZi Pop-Up Ads
 # Source: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0, see LICENSE-HAGEZI-GPL-3.0.txt)
-# Modified: converted by the iRepair Shield build on 2026-10-22 (lower-cased, invalid lines dropped: 0, duplicates removed, sorted); entries otherwise unchanged
+# Modified: converted by the iRepair Shield build on 2026-10-23 (lower-cased, invalid lines dropped: 0, duplicates removed, sorted); entries otherwise unchanged
 # Shield-List: popupads
-# Shield-Version: 20261022
-# Shield-Updated: 2026-10-22
-# Shield-Count: 48291
+# Shield-Version: 20261023
+# Shield-Updated: 2026-10-23
+# Shield-Count: 48298
 # --- original header ---
 # Title: HaGeZi's Pop-Up Ads - stops annoying and malicious pop-ups!
 # Description: Targets pop-up ads that range from annoying to outright malicious.
@@ -13,10 +13,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 21 Oct 2026 14:03 UTC
-# Version: 2026.1021.1403.07
+# Last modified: 22 Oct 2026 07:54 UTC
+# Version: 2026.1022.0754.48
 # Syntax: Domains (without subdomains)
-# Number of entries: 48291
+# Number of entries: 48298
 #
 0--4.com
 0--d.com
@@ -3838,6 +3838,7 @@
 2waky.com
 2wu0m0ms098w7148.xyz
 2x2forum.com
+2x3le64mm.com
 2xpc.com
 2yahoo.com
 30-years-later.com
@@ -18711,6 +18712,7 @@ ffbhosting.org
 fffeg81ett1s.top
 ffhash.com
 ffiahobjyrbzoc.com
+ffiqkyob.in
 ffjrpdfduteic.website
 ffkan.com
 ffpmlheychmat.store
@@ -22904,6 +22906,7 @@ hotswoman-online.com
 hottercensorbeaker.com
 hottest-girls-online.com
 hottubrentals.net
+hotudlwqvejdjk.com
 hotwords.com
 hotxxxcontent.com
 houbiluoxuan.com
@@ -31677,6 +31680,7 @@ oe.tutaniaagos.com
 oe.unclealcine.com
 oe.vineshydroxy.com
 oe.welsherteams.com
+oe851k5an6.com
 oegigehd.com
 oeicqhzlvnlpc.online
 oelhofejacqod.website
@@ -32896,6 +32900,7 @@ oxcrukcpea.in
 oxcwapfa.com
 oxfaqcag.com
 oxgfheakkam.in
+oxidantpolitelysandfish.com
 oxidesearching.com
 oxjqezxcwq.com
 oxlcuqavcoqp.com
@@ -43402,6 +43407,7 @@ ulfjwlqxp.com
 ulgmucrlctvsl.store
 ulisxyz.store
 ulla.com
+ulmmoq87xp.com
 ulmoyc.com
 ulokbfgrpym.com
 ulosadslcf.com
@@ -44182,6 +44188,7 @@ vayslot.xyz
 vazdatbfutc.com
 vazvfaazc.com
 vazwigqpegmi.in
+vazxcosicx.in
 vazypteke.pro
 vb.lobbecalm.com
 vb.vagsealy.com
@@ -46222,7 +46229,6 @@ wroopkbu.com
 wrppoldzkxbqo.space
 wrpqqnurjtljv.space
 wrqkrnicufwmc.xyz
-wrsmnqmpopund.net
 wrufer.com
 wrundlegame.com
 wrvxrwbqvnzdr.space
@@ -46333,6 +46339,7 @@ wwa.youai01.com
 wwads.cn
 wwaotbfk.com
 wwaqijow.com
+wwasimhci.in
 wwazalfqbheab.space
 wwcjhitmvwdqh.space
 wwclicknews.club
