@@ -1,10 +1,10 @@
 # iRepair Shield web-host list: HaGeZi Pop-Up Ads
 # Source: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0, see LICENSE-HAGEZI-GPL-3.0.txt)
-# Modified: converted by the iRepair Shield build on 2026-10-23 (lower-cased, invalid lines dropped: 0, duplicates removed, sorted); entries otherwise unchanged
+# Modified: converted by the iRepair Shield build on 2026-10-24 (lower-cased, invalid lines dropped: 0, duplicates removed, sorted); entries otherwise unchanged
 # Shield-List: popupads
-# Shield-Version: 20261023
-# Shield-Updated: 2026-10-23
-# Shield-Count: 48298
+# Shield-Version: 20261024
+# Shield-Updated: 2026-10-24
+# Shield-Count: 48309
 # --- original header ---
 # Title: HaGeZi's Pop-Up Ads - stops annoying and malicious pop-ups!
 # Description: Targets pop-up ads that range from annoying to outright malicious.
@@ -13,10 +13,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 8 hours
-# Last modified: 22 Oct 2026 07:54 UTC
-# Version: 2026.1022.0754.48
+# Last modified: 23 Oct 2026 08:01 UTC
+# Version: 2026.1023.0801.50
 # Syntax: Domains (without subdomains)
-# Number of entries: 48298
+# Number of entries: 48309
 #
 0--4.com
 0--d.com
@@ -1337,6 +1337,7 @@
 0k1x.us
 0k5y5a98.com
 0kag.com
+0kue3oryg.com
 0lag.net
 0lal.com
 0lay.com
@@ -6896,6 +6897,7 @@ akashopc.info
 akavita.com
 akb-whatsapp.com
 akc-whatsapp.com
+akconstructioncareerdays.org
 akd-whatsapp.com
 akdbr.com
 akdigolema.com
@@ -7399,6 +7401,7 @@ amxqaqzirha.com
 amxrtb.com
 amxsmiamwgh.com
 amxvtyhhyciw.com
+amycticdaimios.qpon
 amylo.site
 amypreps.store
 amyrinbitume.com
@@ -9118,6 +9121,7 @@ banhq.com
 banishafreshconjunction.com
 banishcringeexpressive.com
 banistershand.com
+banjopuppetunripe.com
 bankbridge.ai
 bankerconcludeshare.com
 bankertwistsneeze.com
@@ -9201,7 +9205,6 @@ bartramagynous.com
 barytemarkup.com
 barytethynnid.com
 base-dawgz.web.app
-base.shop
 baseballletters.com
 basednewsarticle.com
 basejudgementquizmaster.com
@@ -11336,6 +11339,7 @@ butterjewelleryexpelled.com
 butteryboy.pro
 buttonsartist.com
 bututpoopsie.com
+buvduzguloj.in
 buxflow.com
 buxgupaznwus.com
 buy-magic-mushroom-kits.com
@@ -12535,6 +12539,7 @@ chivalrouscalmlymexican.com
 chivalrousreschedule.com
 chivalroussecond.com
 chiveraccede.com
+chiyouranai.base.shop
 chl3.net
 chl7rysobc3ol6xla.com
 chlnxdsbxcobb.com
@@ -12882,6 +12887,7 @@ clerrrep.com
 clever-shame.pro
 cleverads.vn
 cleverblotchdelegate.com
+clevereduebel.de
 cleverjump.org
 cleverlydiscounted.com
 clevernessacquired.com
@@ -16074,6 +16080,7 @@ doastaib.xyz
 doblazikena.com
 dochase.com
 dochmiiresidue.com
+docitygummata.cfd
 dockwhip.com
 docs163.com
 doct-umb.org
@@ -18594,6 +18601,7 @@ februaryinjectionproudly.com
 februaryparent.com
 februarypeachyflashing.com
 fecebook.com
+fecialnargile.qpon
 fedapush.net
 fedddqxthvxttxf.com
 fedease.com
@@ -19746,6 +19754,7 @@ frowstyambler.qpon
 froxuqviwh.com
 frozenpayerpregnant.com
 frozryxu.in
+frppndsmshxlpk.com
 frs2c.com
 frtya.com
 frtyb.com
@@ -21048,7 +21057,6 @@ goedit.asia
 goeducklactase.com
 goespillowcase.com
 gofenews.com
-gofimtaisa.net
 gofindrentals.com
 gofun.jp
 gogetnews.world
@@ -25444,6 +25452,7 @@ jursp.com
 juryolympicsspookily.com
 juryprefacereproach.com
 jurysupposedshooter.com
+jusbkylcua.in
 juslxp.com
 jusoworld.org
 jusssxc6w.com
@@ -36623,6 +36632,7 @@ redads.com
 redaffil.com
 redania.cyou
 redbricksoap.com
+redcapsfillip.com
 redcapsunlime.com
 redcarpetshows.com
 reddinggutterservice.com
@@ -42243,6 +42253,7 @@ tokimekimaildesu.net
 tokimekitaine.net
 tokopatcaftans.cyou
 toksoudsoab.net
+tokujiro.base.shop
 tokujirou.stores.jp
 tokumeichat135.net
 tokumeichatmail.net
@@ -43831,6 +43842,7 @@ ur.ventraldiets.com
 uraaka.net
 uralicchatot.com
 urami.net
+uranai1111.base.shop
 uranaikan.com
 urara02032023.com
 urban-signal.pro
@@ -46613,7 +46625,6 @@ xclina.com
 xcmagjqvnyaawhk.com
 xcndoemtutgymmp.com
 xcowuheclvwryh.com
-xcvfqnxr.net
 xcvk.connectiamay-naat.com
 xcxmfcqehr.net
 xcyzuhpweo.com
@@ -46893,7 +46904,6 @@ xpfxmwnridqots.com
 xpfyasmhwif.net
 xphbdyssvpdlfkt.com
 xpigicmmawub.com
-xpmpshghkdxf.net
 xpnddqcfoittu.com
 xpollo.com
 xpornvid.com
@@ -48194,6 +48204,7 @@ ztgktnbuvsmbl.online
 zticbxigsdhau.space
 ztkyevuemenmj.online
 ztogijmifav.com
+ztojimrafoxt.in
 ztomy.com
 ztrack.online
 ztrealty.ca
