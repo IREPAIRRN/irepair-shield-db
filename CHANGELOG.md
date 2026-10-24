@@ -2,6 +2,11 @@
 
 What changed in each automated update, newest first. Counts only — the exact entries are in the commit diff.
 
+## 2026-10-24 · 08:54 UTC
+
+- **APK hashes**: +5 / −0 (now 3,344)
+  - added — Unknown 4, IRATA 1
+
 ## 2026-10-23 · 09:23 UTC
 
 - **APK hashes**: +2 / −0 (now 3,339)
