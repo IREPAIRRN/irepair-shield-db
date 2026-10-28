@@ -1,23 +1,23 @@
 {
-  "built_at": "2026-10-27T09:50:59.964Z",
+  "built_at": "2026-10-28T10:37:43.454Z",
   "files": {
     "malware-signatures.json": {
-      "version": 20261027,
-      "updated": "2026-10-27",
+      "version": 20261028,
+      "updated": "2026-10-28",
       "bytes": 54120,
-      "sha256": "f5b9674efa2933586f343154901af10d849f4280a7893a32a80eec10587640c7"
+      "sha256": "d73ffaaaf155a8030197e7601f4b62bff5d3ee9eba3303abd516c766869441bd"
     },
     "malware-hashes-core.json": {
-      "version": 20261027,
-      "updated": "2026-10-27",
+      "version": 20261028,
+      "updated": "2026-10-28",
       "bytes": 631448,
-      "sha256": "abff84508345be8cef3ae00f464891c5e673ff3fe0145ec861179cb3498028b5"
+      "sha256": "3f615d7afbea4e50978d423c587d5777dbb8e9a1932f2eb08ba79ac9adee35c6"
     },
     "malware-iocs.json": {
-      "version": 20261027,
-      "updated": "2026-10-27",
-      "bytes": 1277803,
-      "sha256": "8f84e5fbd603ea5abaf96499f7ce4587e550d6b232e7bccff097848778605b8f"
+      "version": 20261028,
+      "updated": "2026-10-28",
+      "bytes": 1294599,
+      "sha256": "b58bf7f2ef49c5ef48c0600daaca482a7fae5f184cdc1c241c0936bece83e976"
     }
   },
   "entries": {
@@ -68,19 +68,19 @@
   "webhosts": {
     "tif": {
       "file": "webhosts-tif.txt",
-      "version": 20261027,
-      "updated": "2026-10-27",
-      "count": 2101973,
-      "bytes": 37217823,
-      "sha256": "9120ae7ad2547ffb92e6ca97aa8f4c96b91ba52af7b814436f654a2c51f5d017"
+      "version": 20261028,
+      "updated": "2026-10-28",
+      "count": 2082733,
+      "bytes": 36855977,
+      "sha256": "9ef067507c42871922b9730d0acae70ce5ed19770b88b958a1a1dc95d51e2b36"
     },
     "popupads": {
       "file": "webhosts-popupads.txt",
-      "version": 20261027,
-      "updated": "2026-10-27",
-      "count": 47739,
-      "bytes": 809418,
-      "sha256": "d30888624cd990fd7763a5204a7f7ae494a147c63cd6c6e91843156d0b024331"
+      "version": 20261028,
+      "updated": "2026-10-28",
+      "count": 48309,
+      "bytes": 818730,
+      "sha256": "159b1c5e47e6473fc966c4dc7fa5597bb2c267f2287060f1fd743d23ce8d0fe2"
     }
   },
   "webhosts_attribution": "Pop-up/ad, scam and threat host data: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0)"
