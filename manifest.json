@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-10-29T10:55:28.449Z",
+  "built_at": "2026-10-29T15:50:24.609Z",
   "files": {
     "malware-signatures.json": {
       "version": 20261029,
@@ -10,19 +10,19 @@
     "malware-hashes-core.json": {
       "version": 20261029,
       "updated": "2026-10-29",
-      "bytes": 631448,
-      "sha256": "578e727315caeb0dffee2df2007c8636fb864ecc3fd1c1d2f89798e5c750455c"
+      "bytes": 631806,
+      "sha256": "3965c4dbd05240b0e9baed269c9b39611240bbfe053d8f5665385f602dd59b8c"
     },
     "malware-iocs.json": {
       "version": 20261029,
       "updated": "2026-10-29",
-      "bytes": 1355786,
-      "sha256": "5a54a235e78ea1314c0967e25a10d089bdd492190ce82e53e5b9af0db315962c"
+      "bytes": 1456778,
+      "sha256": "297b068ede9f42f756ef0e17f97a77baca75cb79604032fae08a149e2a0b9a71"
     }
   },
   "entries": {
     "signatures": 618,
-    "hashes": 3372,
+    "hashes": 3374,
     "iocs": 7427
   },
   "ioc_breakdown": {
@@ -49,6 +49,7 @@
       "ThreatFox abuse.ch (CC0)",
       "URLhaus abuse.ch (CC0)",
       "ipsw.me (iOS versions)",
+      "endoflife.date (Android support, MIT)",
       "MVT: NSO Group Pegasus",
       "MVT: Predator Spyware",
       "MVT: RCS Lab Spyware",
@@ -61,8 +62,7 @@
       "MVT: NoviSpy",
       "MVT: EagleMsgSpy",
       "MVT: Candiru",
-      "MVT: ResidentBat",
-      "MVT: Cellebrite"
+      "MVT: ResidentBat"
     ]
   },
   "webhosts": {

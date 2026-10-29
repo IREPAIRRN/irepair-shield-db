@@ -2,6 +2,11 @@
 
 What changed in each automated update, newest first. Counts only — the exact entries are in the commit diff.
 
+## 2026-10-29 · 15:50 UTC
+
+- **APK hashes**: +2 / −0 (now 3,374)
+  - added — KATARU 2
+
 ## 2026-10-27 · 09:50 UTC
 
 - **APK hashes**: +24 / −0 (now 3,372)
