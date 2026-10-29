@@ -1,23 +1,23 @@
 {
-  "built_at": "2026-10-28T10:37:43.454Z",
+  "built_at": "2026-10-29T10:55:28.449Z",
   "files": {
     "malware-signatures.json": {
-      "version": 20261028,
-      "updated": "2026-10-28",
+      "version": 20261029,
+      "updated": "2026-10-29",
       "bytes": 54120,
-      "sha256": "d73ffaaaf155a8030197e7601f4b62bff5d3ee9eba3303abd516c766869441bd"
+      "sha256": "c46e7881e600975e4389ed200bec42a4114fb43157178182b1ba63856aafa89e"
     },
     "malware-hashes-core.json": {
-      "version": 20261028,
-      "updated": "2026-10-28",
+      "version": 20261029,
+      "updated": "2026-10-29",
       "bytes": 631448,
-      "sha256": "3f615d7afbea4e50978d423c587d5777dbb8e9a1932f2eb08ba79ac9adee35c6"
+      "sha256": "578e727315caeb0dffee2df2007c8636fb864ecc3fd1c1d2f89798e5c750455c"
     },
     "malware-iocs.json": {
-      "version": 20261028,
-      "updated": "2026-10-28",
-      "bytes": 1294599,
-      "sha256": "b58bf7f2ef49c5ef48c0600daaca482a7fae5f184cdc1c241c0936bece83e976"
+      "version": 20261029,
+      "updated": "2026-10-29",
+      "bytes": 1355786,
+      "sha256": "5a54a235e78ea1314c0967e25a10d089bdd492190ce82e53e5b9af0db315962c"
     }
   },
   "entries": {
@@ -48,6 +48,7 @@
       "AssoEchap stalkerware-indicators (CC BY 4.0)",
       "ThreatFox abuse.ch (CC0)",
       "URLhaus abuse.ch (CC0)",
+      "ipsw.me (iOS versions)",
       "MVT: NSO Group Pegasus",
       "MVT: Predator Spyware",
       "MVT: RCS Lab Spyware",
@@ -61,26 +62,25 @@
       "MVT: EagleMsgSpy",
       "MVT: Candiru",
       "MVT: ResidentBat",
-      "MVT: Cellebrite",
-      "MVT: DarkSword"
+      "MVT: Cellebrite"
     ]
   },
   "webhosts": {
     "tif": {
       "file": "webhosts-tif.txt",
-      "version": 20261028,
-      "updated": "2026-10-28",
-      "count": 2082733,
-      "bytes": 36855977,
-      "sha256": "9ef067507c42871922b9730d0acae70ce5ed19770b88b958a1a1dc95d51e2b36"
+      "version": 20261029,
+      "updated": "2026-10-29",
+      "count": 2062783,
+      "bytes": 36556378,
+      "sha256": "3f5b2f26e3fbb309ab5e5f1ca3ea732263fb6acec67612b581207983078601eb"
     },
     "popupads": {
       "file": "webhosts-popupads.txt",
-      "version": 20261028,
-      "updated": "2026-10-28",
-      "count": 48309,
-      "bytes": 818730,
-      "sha256": "159b1c5e47e6473fc966c4dc7fa5597bb2c267f2287060f1fd743d23ce8d0fe2"
+      "version": 20261029,
+      "updated": "2026-10-29",
+      "count": 53756,
+      "bytes": 937739,
+      "sha256": "4ee3fa454073a3bde5125054c69917e0ac434127d75aa2e12ebbd08ede93d97f"
     }
   },
   "webhosts_attribution": "Pop-up/ad, scam and threat host data: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0)"
