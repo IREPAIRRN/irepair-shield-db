@@ -10,12 +10,12 @@ di spyware mercenario. Viene ricostruito, firmato e pubblicato qui ogni giorno i
 
 ## Today
 
-Last build: **2026-10-29 10:55 UTC**
+Last build: **2026-10-29 15:50 UTC**
 
 | File | What it holds | Entries | Version |
 |---|---|---:|---|
 | `malware-signatures.json` | Android package names of known stalkerware / malware | 618 | v20261029 |
-| `malware-hashes-core.json` | SHA-256 of known malicious Android APKs | 3,372 | v20261029 |
+| `malware-hashes-core.json` | SHA-256 of known malicious Android APKs | 3,374 | v20261029 |
 | `malware-iocs.json` | Indicators of stalkerware and mercenary spyware (Android + iPhone) | 7,427 | v20261029 |
 
 Indicators by kind: 682 app packages · 83 process names · 49 file paths · 6,548 domains · 65 e-mail accounts.
@@ -49,7 +49,8 @@ Indicators:
 - ThreatFox abuse.ch (CC0)
 - URLhaus abuse.ch (CC0)
 - ipsw.me (iOS versions)
-- Amnesty International Security Lab and partners — Mobile Verification Toolkit indicator sets, including: NSO Group Pegasus, Predator Spyware, RCS Lab Spyware, Stalkerware, Surveillance campaign linked to mercenary spyware compa…, Quadream KingSpawn, Operation Triangulation, WyrmSpy and DragonEgg, Wintego Helios, NoviSpy, EagleMsgSpy, Candiru, ResidentBat, Cellebrite
+- endoflife.date (Android support, MIT)
+- Amnesty International Security Lab and partners — Mobile Verification Toolkit indicator sets, including: NSO Group Pegasus, Predator Spyware, RCS Lab Spyware, Stalkerware, Surveillance campaign linked to mercenary spyware compa…, Quadream KingSpawn, Operation Triangulation, WyrmSpy and DragonEgg, Wintego Helios, NoviSpy, EagleMsgSpy, Candiru, ResidentBat
 
 Browser-check host lists (`webhosts-*.txt`, used only to compare the sites a phone's browser lets send
 notifications; a match is "on a pop-up / ad list" or "on a threat intelligence list", never proof of malware):
