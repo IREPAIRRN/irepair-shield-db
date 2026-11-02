@@ -2,6 +2,11 @@
 
 What changed in each automated update, newest first. Counts only — the exact entries are in the commit diff.
 
+## 2026-11-02 · 12:30 UTC
+
+- **APK hashes**: +2 / −0 (now 3,379)
+  - added — CECbot 1, Mirai 1
+
 ## 2026-11-01 · 11:18 UTC
 
 - **APK hashes**: +1 / −0 (now 3,377)
