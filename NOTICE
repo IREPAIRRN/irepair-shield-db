@@ -92,6 +92,16 @@ The browser check (webDomains inside malware-iocs.json, built by scripts/web-fee
    reads them as data at runtime; provided as-is, without warranty (GPL-3.0 sections 15-16). A match is shown as
    "on a pop-up / ad list" or "on a threat intelligence list", never as proof of malware.
 
+The hash database and the IOC set also include indicators from:
+
+6. CERT-AGID — Agenzia per l'Italia Digitale (Italy's government CERT)
+   https://cert-agid.gov.it  — public campaign IoC files (JSON) of Android malware campaigns in Italy
+   (StreamRat 2026, SpyNote "INPS Mobile" 2024, Irata 2024).
+   Licence: Creative Commons Attribution 4.0 (CC BY 4.0), "salvo ove diversamente indicato"
+   (https://cert-agid.gov.it/note-legali/). Source: CERT-AGID. Changes made: only APK SHA-256 digests, Android
+   package names and one C2 domain were kept, labelled with the malware family; the 2024 phishing domains were left
+   out (old, possibly re-registered). CERT-AGID does not endorse iRepair Shield.
+
 Fonts (bundled in the application)
 ----------------------------------
 The interface uses the Inter and JetBrains Mono typefaces, bundled from the @fontsource/inter and

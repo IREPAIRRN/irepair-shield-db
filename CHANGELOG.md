@@ -2,6 +2,15 @@
 
 What changed in each automated update, newest first. Counts only — the exact entries are in the commit diff.
 
+## 2026-11-04 · 14:09 UTC
+
+- **APK hashes**: +23 / −0 (now 3,421)
+  - added — StreamRat 17, Irata 4, SpyNote 2
+- **app packages**: +6 / −0 (now 697)
+  - added — StreamRat (CERT-AGID 2026) 6
+- **domains**: +1 / −0 (now 6,552)
+  - added — StreamRat (CERT-AGID 2026) 1
+
 ## 2026-11-04 · 10:37 UTC
 
 - **APK hashes**: +17 / −0 (now 3,398)
