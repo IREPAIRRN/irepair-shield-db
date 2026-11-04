@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-04T14:09:08.935Z",
+  "built_at": "2026-11-04T14:14:59.181Z",
   "files": {
     "malware-signatures.json": {
       "version": 20261104,
@@ -10,14 +10,14 @@
     "malware-hashes-core.json": {
       "version": 20261104,
       "updated": "2026-11-04",
-      "bytes": 640832,
-      "sha256": "bdf89348a8dc3da32541b2e2f002f6022278bef79e52d3f14dfcdd9058fda47d"
+      "bytes": 641007,
+      "sha256": "219af7bfd5f11d52f57823e0ae648f993fbf720c47235ced994a20a9e69c44e6"
     },
     "malware-iocs.json": {
       "version": 20261104,
       "updated": "2026-11-04",
-      "bytes": 1884048,
-      "sha256": "217de89312fcbe8acfccaba886d9c597d95ce2238f2441b7f4768003336bc41f"
+      "bytes": 1884168,
+      "sha256": "bbbfc8597914d0d52a779126839443d229ea00edf61e3d5c44de42587d09e1e7"
     }
   },
   "entries": {
@@ -45,6 +45,8 @@
     "iocs": [
       "bundled stalkerware (malware-signatures.json)",
       "Amnesty MVT / Citizen Lab (via build-iocs.js)",
+      "CERT-AGID (AgID) campaign IoC (CC BY 4.0)",
+      "Security Without Borders (Exodus, 2019)",
       "AssoEchap stalkerware-indicators (CC BY 4.0)",
       "ThreatFox abuse.ch (CC0)",
       "URLhaus abuse.ch (CC0)",
@@ -60,9 +62,7 @@
       "MVT: WyrmSpy and DragonEgg",
       "MVT: Wintego Helios",
       "MVT: NoviSpy",
-      "MVT: EagleMsgSpy",
-      "MVT: Candiru",
-      "MVT: ResidentBat"
+      "MVT: EagleMsgSpy"
     ]
   },
   "webhosts": {

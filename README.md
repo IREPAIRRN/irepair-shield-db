@@ -10,7 +10,7 @@ di spyware mercenario. Viene ricostruito, firmato e pubblicato qui ogni giorno i
 
 ## Today
 
-Last build: **2026-11-04 14:09 UTC**
+Last build: **2026-11-04 14:14 UTC**
 
 | File | What it holds | Entries | Version |
 |---|---|---:|---|
@@ -45,12 +45,14 @@ APK hashes:
 
 Indicators:
 - The stalkerware package signatures above
+- CERT-AGID (AgID) campaign IoC (CC BY 4.0)
+- Security Without Borders (Exodus, 2019)
 - AssoEchap / Coalition Against Stalkerware — stalkerware-indicators (CC BY 4.0)
 - ThreatFox abuse.ch (CC0)
 - URLhaus abuse.ch (CC0)
 - ipsw.me (iOS versions)
 - endoflife.date (Android support, MIT)
-- Amnesty International Security Lab and partners — Mobile Verification Toolkit indicator sets, including: NSO Group Pegasus, Predator Spyware, RCS Lab Spyware, Stalkerware, Surveillance campaign linked to mercenary spyware compa…, Quadream KingSpawn, Operation Triangulation, WyrmSpy and DragonEgg, Wintego Helios, NoviSpy, EagleMsgSpy, Candiru, ResidentBat
+- Amnesty International Security Lab and partners — Mobile Verification Toolkit indicator sets, including: NSO Group Pegasus, Predator Spyware, RCS Lab Spyware, Stalkerware, Surveillance campaign linked to mercenary spyware compa…, Quadream KingSpawn, Operation Triangulation, WyrmSpy and DragonEgg, Wintego Helios, NoviSpy, EagleMsgSpy
 
 Browser-check host lists (`webhosts-*.txt`, used only to compare the sites a phone's browser lets send
 notifications; a match is "on a pop-up / ad list" or "on a threat intelligence list", never proof of malware):
