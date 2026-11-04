@@ -10,7 +10,7 @@ di spyware mercenario. Viene ricostruito, firmato e pubblicato qui ogni giorno i
 
 ## Today
 
-Last build: **2026-11-04 10:37 UTC**
+Last build: **2026-11-04 12:13 UTC**
 
 | File | What it holds | Entries | Version |
 |---|---|---:|---|
