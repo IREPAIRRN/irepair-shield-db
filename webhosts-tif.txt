@@ -1,9 +1,9 @@
 # iRepair Shield web-host list: HaGeZi Threat Intelligence Feeds
 # Source: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0, see LICENSE-HAGEZI-GPL-3.0.txt)
-# Modified: converted by the iRepair Shield build on 2026-11-03 (lower-cased, invalid lines dropped: 0, duplicates removed, sorted); entries otherwise unchanged
+# Modified: converted by the iRepair Shield build on 2026-11-04 (lower-cased, invalid lines dropped: 0, duplicates removed, sorted); entries otherwise unchanged
 # Shield-List: tif
-# Shield-Version: 20261103
-# Shield-Updated: 2026-11-03
+# Shield-Version: 20261104
+# Shield-Updated: 2026-11-04
 # Shield-Count: 1814363
 # --- original header ---
 # Title: HaGeZi's Threat Intelligence Feeds - a serious security boost (recommended)

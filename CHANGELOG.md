@@ -2,6 +2,15 @@
 
 What changed in each automated update, newest first. Counts only — the exact entries are in the commit diff.
 
+## 2026-11-04 · 10:37 UTC
+
+- **APK hashes**: +17 / −0 (now 3,398)
+  - added — Exodus 16, Unknown 1
+- **app packages**: +9 / −0 (now 691)
+  - added — Exodus (eSurv) 9
+- **domains**: +3 / −0 (now 6,551)
+  - added — Exodus (eSurv) 3
+
 ## 2026-11-03 · 11:58 UTC
 
 - **APK hashes**: +2 / −0 (now 3,381)
