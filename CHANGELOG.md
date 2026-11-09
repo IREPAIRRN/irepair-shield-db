@@ -2,6 +2,11 @@
 
 What changed in each automated update, newest first. Counts only — the exact entries are in the commit diff.
 
+## 2026-11-09 · 12:56 UTC
+
+- **APK hashes**: +4 / −0 (now 3,436)
+  - added — Mirai 2, Unknown 2
+
 ## 2026-11-08 · 11:19 UTC
 
 - **APK hashes**: +3 / −0 (now 3,432)
