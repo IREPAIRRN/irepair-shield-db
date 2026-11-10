@@ -2,6 +2,15 @@
 
 What changed in each automated update, newest first. Counts only — the exact entries are in the commit diff.
 
+## 2026-11-10 · 12:42 UTC
+
+- **APK hashes**: +5 / −0 (now 3,441)
+  - added — Unknown 4, SilentNet 1
+- **app packages**: +19 / −0 (now 716)
+  - added — Mirax RAT (Group-IB 2026) 19
+- **domains**: +2 / −0 (now 6,554)
+  - added — Mirax RAT (Group-IB 2026) 2
+
 ## 2026-11-09 · 12:56 UTC
 
 - **APK hashes**: +4 / −0 (now 3,436)
