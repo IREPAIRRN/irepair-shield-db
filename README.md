@@ -10,7 +10,7 @@ di spyware mercenario. Viene ricostruito, firmato e pubblicato qui ogni giorno i
 
 ## Today
 
-Last build: **2026-11-11 11:55 UTC**
+Last build: **2026-11-11 19:09 UTC**
 
 | File | What it holds | Entries | Version |
 |---|---|---:|---|
@@ -52,13 +52,14 @@ Indicators:
 - URLhaus abuse.ch (CC0)
 - ipsw.me (iOS versions)
 - endoflife.date (Android support, MIT)
-- Amnesty International Security Lab and partners — Mobile Verification Toolkit indicator sets, including: NSO Group Pegasus, Predator Spyware, RCS Lab Spyware, Stalkerware, Surveillance campaign linked to mercenary spyware compa…, Quadream KingSpawn, Operation Triangulation, WyrmSpy and DragonEgg, Wintego Helios, NoviSpy, EagleMsgSpy
+- CISA KEV (exploited Android flaws)
+- Amnesty International Security Lab and partners — Mobile Verification Toolkit indicator sets, including: NSO Group Pegasus, Predator Spyware, RCS Lab Spyware, Stalkerware, Surveillance campaign linked to mercenary spyware compa…, Quadream KingSpawn, Operation Triangulation, WyrmSpy and DragonEgg, Wintego Helios, NoviSpy
 
 Browser-check host lists (`webhosts-*.txt`, used only to compare the sites a phone's browser lets send
 notifications; a match is "on a pop-up / ad list" or "on a threat intelligence list", never proof of malware):
 - Pop-up/ad, scam and threat host data: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0)
-  - `webhosts-tif.txt`: 1,476,626 domains, v20261111
-  - `webhosts-popupads.txt`: 76,783 domains, v20261111
+  - `webhosts-tif.txt`: 1,482,194 domains, v20261111
+  - `webhosts-popupads.txt`: 76,900 domains, v20261111
 - These files are redistributed under GPL-3.0 with the author's permission; the licence text is in
   [LICENSE-HAGEZI-GPL-3.0.txt](LICENSE-HAGEZI-GPL-3.0.txt). Each file keeps HaGeZi's original header and states
   that it was converted (normalised and sorted) and when.
@@ -106,6 +107,12 @@ All three files are JSON with `version` (integer, `YYYYMMDD`), `updated` (`YYYY-
   `emails` come on top of it.
 
 `manifest.json` lists the version, size and SHA-256 of each file, the totals and the sources.
+
+## How the app judges an Android app
+
+The signatures and indicators above name known threats. Apps nobody has named yet are judged by what they can
+do: the rules, with their points and thresholds, are in [`REGOLE.md`](REGOLE.md) (Italian) and
+[`RULES.md`](RULES.md) (English) — generated from the code that runs in the app.
 
 ## Reporting a false positive
 

@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-11T11:55:13.348Z",
+  "built_at": "2026-11-11T19:09:50.467Z",
   "files": {
     "malware-signatures.json": {
       "version": 20261111,
@@ -16,8 +16,8 @@
     "malware-iocs.json": {
       "version": 20261111,
       "updated": "2026-11-11",
-      "bytes": 2049204,
-      "sha256": "f1a7dc10541526beb6a68e57498f87618841ccb25a34b5e223f43d4a2a392288"
+      "bytes": 2076770,
+      "sha256": "b402fcee9ff6889307978654ec1d2cadd96d7cac94c4956a7483e589b2dfab68"
     }
   },
   "entries": {
@@ -52,6 +52,7 @@
       "URLhaus abuse.ch (CC0)",
       "ipsw.me (iOS versions)",
       "endoflife.date (Android support, MIT)",
+      "CISA KEV (exploited Android flaws)",
       "MVT: NSO Group Pegasus",
       "MVT: Predator Spyware",
       "MVT: RCS Lab Spyware",
@@ -61,8 +62,7 @@
       "MVT: Operation Triangulation",
       "MVT: WyrmSpy and DragonEgg",
       "MVT: Wintego Helios",
-      "MVT: NoviSpy",
-      "MVT: EagleMsgSpy"
+      "MVT: NoviSpy"
     ]
   },
   "webhosts": {
@@ -70,17 +70,17 @@
       "file": "webhosts-tif.txt",
       "version": 20261111,
       "updated": "2026-11-11",
-      "count": 1476626,
-      "bytes": 27084292,
-      "sha256": "93db86a25cac2c2b16cadf7f3cf9f2322e5f88ef94e505b9682b9811810032b2"
+      "count": 1482194,
+      "bytes": 27127980,
+      "sha256": "35fdad86da287a55a7accec968bae0e0a689d44bfbd166d03c285759c829e619"
     },
     "popupads": {
       "file": "webhosts-popupads.txt",
       "version": 20261111,
       "updated": "2026-11-11",
-      "count": 76783,
-      "bytes": 1382087,
-      "sha256": "976e01925f9f150ffdbd5c541ccd91a391c9738831ed23acf76bce44eaf55151"
+      "count": 76900,
+      "bytes": 1384380,
+      "sha256": "25b96cb63404627505f862354be72d02b2a7239e3ca791ef3dca527429012e0c"
     }
   },
   "webhosts_attribution": "Pop-up/ad, scam and threat host data: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0)"
