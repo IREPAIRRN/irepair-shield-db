@@ -1,0 +1,57 @@
+# iRepair Shield ad-SDK fingerprints (a selection from the Exodus Privacy tracker database)
+# Source: Exodus Privacy tracker database – https://etip.exodus-privacy.eu.org (ODbL 1.0, see LICENSE-ODbL-1.0.txt)
+# Modified: selection made by the iRepair Shield build on 2026-11-14 — advertising trackers only (no crash-reporting
+#   ones), and of those only the curated aggressive ad networks (electron/adwareSdk.js AGGRESSIVE, which names no
+#   analytics or crash SDK; Google AdMob and Meta Audience Network deliberately excluded), keeping only each
+#   tracker's code signature and name, lower-cased, de-duplicated, sorted
+# Licence: Open Database License (ODbL) 1.0 – https://opendatacommons.org/licenses/odbl/1-0/
+# Attribution: Contains information from the Exodus Privacy tracker database, which is made available under the Open Database License (ODbL)
+# Shield-List: adware-sdk
+# Shield-Version: 20261114
+# Shield-Updated: 2026-11-14
+# Shield-Count: 45
+coelib.c.couluslibrary	Coulus Coelib
+com.adcash.mobileads.	Adcash
+com.adcolony.	AdColony
+com.adgatemedia.	AdGateMedia
+com.adgem.android.	AdGem
+com.admuing.danmaku.	AdMuing
+com.adsmogo.	Alimama (formerly AdsMogo)
+com.adtiming.	AdTiming
+com.aiming.mdt.	AdTiming
+com.airpush.	Airpush
+com.alimama.	Alimama (formerly AdsMogo)
+com.altamob.sdk	Altamob
+com.applovin	AppLovin (MAX and SparkLabs)
+com.buzzvil.	BuzzAd Benefit
+com.bytedance	Pangle
+com.calldorado.android	CallDorado
+com.explorestack.	Appodeal Stack
+com.fineboost.	fineboost
+com.fyber.	Fyber
+com.igaworks.adpopcorn	adPOPcorn
+com.igaworks.ssp.	adPOPcorn
+com.iqzone	IQzone
+com.jirbo.adcolony.	AdColony
+com.kidoz.sdk	KIDOZ
+com.mbridge.msdk.	Mintegral
+com.mintegral.	Mintegral
+com.mobpower.	MobPower
+com.offertoro.sdk.	OfferToro
+com.pangle.global	Pangle
+com.pgl	Pangle
+com.pincrux.	Pincrux
+com.pingstart.adsdk.	PingStart
+com.purplebrain.adbuddiz.sdk.	AdBuddiz
+com.revmob.ads.	Revmob
+com.rjfun.cordova.ad	RjFun
+com.rjfun.cordova.admob	RjFun
+com.startapp.	Startapp
+com.unity3d.ads	Unity3d Ads
+com.unity3d.services	Unity3d Ads
+com.vungle.publisher.	Vungle
+com.vungle.warren.	Vungle
+com.yoadx.yoadx.	Yoadx
+io.adjoe.protection.	Adjoe
+io.adjoe.sdk.	Adjoe
+io.bidmachine.	BidMachine

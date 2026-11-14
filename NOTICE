@@ -92,9 +92,29 @@ The browser check (webDomains inside malware-iocs.json, built by scripts/web-fee
    reads them as data at runtime; provided as-is, without warranty (GPL-3.0 sections 15-16). A match is shown as
    "on a pop-up / ad list" or "on a threat intelligence list", never as proof of malware.
 
+6. Exodus Privacy — εxodus / ETIP tracker database (advertising-SDK fingerprints)
+   https://etip.exodus-privacy.eu.org  ·  https://reports.exodus-privacy.eu.org/api/trackers
+   Contains information from the Exodus Privacy tracker database, which is made available under the Open
+   Database License (ODbL).
+   Licence: Open Data Commons Open Database License (ODbL) v1.0,
+   https://opendatacommons.org/licenses/odbl/1-0/ — rights in the individual contents are licensed by Exodus
+   Privacy under the Database Contents License (DbCL) v1.0. The Exodus Privacy SOFTWARE is AGPL-3.0 and none of
+   it is used or redistributed: only the data.
+   TAKEN FROM EXODUS PRIVACY, MODIFIED. What we publish is a SELECTION: only trackers filed under an advertising
+   category ("Ads"), never a crash-reporting one, and of those only the curated list of aggressive ad networks in
+   electron/adwareSdk.js — a list that names advertising networks only and refuses any name that says analytics or
+   crash reporting, with Google AdMob and Meta Audience Network deliberately excluded; of each kept tracker only
+   its code signature and its name. The selection rule itself is public (electron/adwareSdk.js and
+   scripts/build-adware-sdk.js), which is how ODbL 4.6 is met.
+   The selection is a Derivative Database, so it is published under the ODbL as its own data file
+   (adware-sdk.txt) next to the licence notice (LICENSE-ODbL-1.0.txt), freely readable, with no account, no
+   licence check and no encryption (ODbL 4.7). It is never merged into Shield's own database or code, which is
+   what keeps those outside the ODbL's share-alike (ODbL 4.5). A match is shown as "aggressive advertising SDKs
+   in the app — to check with the customer", never as proof of malware, and never adds to a phone's spyware score.
+
 The hash database and the IOC set also include indicators from:
 
-6. CERT-AGID — Agenzia per l'Italia Digitale (Italy's government CERT)
+7. CERT-AGID — Agenzia per l'Italia Digitale (Italy's government CERT)
    https://cert-agid.gov.it  — public campaign IoC files (JSON) of Android malware campaigns in Italy
    (StreamRat 2026, SpyNote "INPS Mobile" 2024, Irata 2024).
    Licence: Creative Commons Attribution 4.0 (CC BY 4.0), "salvo ove diversamente indicato"

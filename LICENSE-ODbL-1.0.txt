@@ -1,0 +1,61 @@
+Open Data Commons Open Database License (ODbL) v1.0
+===================================================
+
+The data in the file next to this notice (adware-sdk.txt) is a selection taken from the
+Exodus Privacy tracker database and is made available, like the original, under the
+Open Data Commons Open Database License (ODbL) version 1.0.
+
+  Full licence text:  https://opendatacommons.org/licenses/odbl/1-0/
+                      http://opendatacommons.org/licenses/odbl/1.0/
+
+Section 4.2 of the ODbL asks that a copy of the License, OR ITS URI, be included with the
+database and in the relevant documentation; the URIs above are that reference. Replacing
+this file with the full licence text also satisfies 4.2 — the build copies whatever this
+file contains, so nothing else has to change.
+
+Source database
+---------------
+  Exodus Privacy — εxodus / ETIP tracker database
+  https://etip.exodus-privacy.eu.org   ·   https://reports.exodus-privacy.eu.org/api/trackers
+
+  "The εxodus database and API results are made available under the Open Database License"
+  (Exodus-Privacy/exodus, Exodus-Privacy/etip). Rights in the individual contents of that
+  database are licensed by Exodus Privacy under the Database Contents License (DbCL) v1.0,
+  http://opendatacommons.org/licenses/dbcl/1.0/. The Exodus Privacy SOFTWARE is AGPL-3.0;
+  none of it is used or redistributed here — only the data.
+
+Changes made (ODbL 4.6: the method used to make the alterations)
+----------------------------------------------------------------
+  Taken from Exodus Privacy, MODIFIED. The file is a SELECTION, not the whole database:
+
+   1. only trackers filed under an ADVERTISING category are considered. Exodus labels these
+      "Ads"; "Advertisement" is accepted as well, because the label has changed over time;
+   2. a tracker filed as crash reporting is dropped: it is never what this is looking for;
+   3. of those, only the ad networks named in the curated list in electron/adwareSdk.js
+      (AGGRESSIVE) are kept. That list names advertising networks only, and the NEVER rules
+      next to it additionally refuse any name that says analytics or crash reporting, so no
+      measurement SDK can get in through it. A network Exodus files under BOTH "Ads" and
+      "Analytics" is still an advertising network and is kept — the curated name decides, not
+      the extra label. The two networks that are in nearly every free app, Google AdMob and
+      Meta / Facebook Audience Network, are deliberately EXCLUDED: their presence says
+      nothing about an app;
+   4. for each kept tracker, only its code signature (a Java package prefix) and its name are
+      kept. Network signatures, descriptions, websites, dates and ids are not redistributed;
+   5. prefixes are lower-cased where the package grammar allows, de-duplicated and sorted;
+      anything that is not a plain Java package prefix is dropped.
+
+  The exact selection rule is the code in scripts/build-adware-sdk.js and the AGGRESSIVE list
+  in electron/adwareSdk.js, both public.
+
+Conditions this file is published under (ODbL 4.2, 4.3, 4.6, 4.7)
+-----------------------------------------------------------------
+  * it is published in the open, with this notice and its own detached signature, in
+    https://github.com/IREPAIRRN/irepair-shield-db — free of charge, with no account, no
+    licence check and no encryption. Nothing restricts anyone's rights under the ODbL;
+    the signature only proves where the file came from and does not stand in the way of
+    reading or reusing it (4.7);
+  * it is offered under the ODbL itself (4.2, 4.4), with the source named and the changes
+    above stated (4.6);
+  * reports and screens produced from it carry the notice the ODbL asks for in 4.3:
+    "Contains information from the Exodus Privacy tracker database, which is made available
+    under the Open Database License (ODbL)".

@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-14T11:32:59.216Z",
+  "built_at": "2026-11-14T20:38:30.462Z",
   "files": {
     "malware-signatures.json": {
       "version": 20261114,
@@ -10,19 +10,19 @@
     "malware-hashes-core.json": {
       "version": 20261114,
       "updated": "2026-11-14",
-      "bytes": 648016,
-      "sha256": "9809224fcaa22c003277b81cb99df5b101b5a785d977ee5928b98a8b34d0b412"
+      "bytes": 648921,
+      "sha256": "83f9298a8138db9c1154be23b87083470575133cf59095df2e8c05b9059276e1"
     },
     "malware-iocs.json": {
       "version": 20261114,
       "updated": "2026-11-14",
-      "bytes": 2206063,
-      "sha256": "ea51677a263aee6ab0697c2648fc1623473c0244baaacbbaf1ad3fc7bae232fc"
+      "bytes": 2210251,
+      "sha256": "1ed4ece6f9975203d12cd5bf7472af8ff79ddd697f7924dbc16206eb1ccecd8e"
     }
   },
   "entries": {
     "signatures": 618,
-    "hashes": 3459,
+    "hashes": 3464,
     "iocs": 7467
   },
   "ioc_breakdown": {
@@ -83,5 +83,15 @@
       "sha256": "5a5edc4a4400ef4d4d71c41d03dedda27092c08c9ce0709864a04d24b32149f6"
     }
   },
-  "webhosts_attribution": "Pop-up/ad, scam and threat host data: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0)"
+  "webhosts_attribution": "Pop-up/ad, scam and threat host data: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0)",
+  "adware_sdk": {
+    "file": "adware-sdk.txt",
+    "version": 20261114,
+    "updated": "2026-11-14",
+    "count": 45,
+    "bytes": 2187,
+    "sha256": "c5824062c2b271503f038ff5d972b768928648a06e76fbc5d1630d28ac7af888",
+    "license_file": "LICENSE-ODbL-1.0.txt"
+  },
+  "adware_sdk_attribution": "Contains information from the Exodus Privacy tracker database, which is made available under the Open Database License (ODbL)"
 }

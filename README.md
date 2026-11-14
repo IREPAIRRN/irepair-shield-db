@@ -10,12 +10,12 @@ di spyware mercenario. Viene ricostruito, firmato e pubblicato qui ogni giorno i
 
 ## Today
 
-Last build: **2026-11-14 11:32 UTC**
+Last build: **2026-11-14 20:38 UTC**
 
 | File | What it holds | Entries | Version |
 |---|---|---:|---|
 | `malware-signatures.json` | Android package names of known stalkerware / malware | 618 | v20261114 |
-| `malware-hashes-core.json` | SHA-256 of known malicious Android APKs | 3,459 | v20261114 |
+| `malware-hashes-core.json` | SHA-256 of known malicious Android APKs | 3,464 | v20261114 |
 | `malware-iocs.json` | Indicators of stalkerware and mercenary spyware (Android + iPhone) | 7,467 | v20261114 |
 
 Indicators by kind: 716 app packages · 83 process names · 49 file paths · 6,554 domains · 65 e-mail accounts.
@@ -63,6 +63,16 @@ notifications; a match is "on a pop-up / ad list" or "on a threat intelligence l
 - These files are redistributed under GPL-3.0 with the author's permission; the licence text is in
   [LICENSE-HAGEZI-GPL-3.0.txt](LICENSE-HAGEZI-GPL-3.0.txt). Each file keeps HaGeZi's original header and states
   that it was converted (normalised and sorted) and when.
+
+Advertising-SDK fingerprints (`adware-sdk.txt`, 45 Java package prefixes, v20261114):
+- Contains information from the Exodus Privacy tracker database, which is made available under the Open Database License (ODbL)
+- Source: Exodus Privacy — https://etip.exodus-privacy.eu.org. **Taken from Exodus Privacy, MODIFIED.**
+- Licence: **Open Database License (ODbL) 1.0** — see [LICENSE-ODbL-1.0.txt](LICENSE-ODbL-1.0.txt),
+  which also states exactly how the selection was made (ODbL 4.6). This file is published under the ODbL itself,
+  free, with no account and no licence check, and is deliberately **kept out of every other file here** — it is
+  not merged into `malware-iocs.json`.
+- A match means an app carries aggressive advertising SDKs. It is a question for the technician to put to the
+  customer, never proof of malware and never part of a phone's spyware score.
 
 ## How the app uses it
 
