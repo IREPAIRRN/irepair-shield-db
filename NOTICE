@@ -112,6 +112,18 @@ The browser check (webDomains inside malware-iocs.json, built by scripts/web-fee
    what keeps those outside the ODbL's share-alike (ODbL 4.5). A match is shown as "aggressive advertising SDKs
    in the app — to check with the customer", never as proof of malware, and never adds to a phone's spyware score.
 
+   Shield's OWN list of ad SDKs (electron/own-ad-sdk.json: SpinOk, Youmi, Kuguo, Domob, SmartMad) is a
+   different thing and is kept apart from this file on purpose. It holds only the Java package under which a
+   security vendor reported each SDK, with the report named next to it (Doctor Web for SpinOk; the antivirus
+   detection names quoted in the ANDetect paper, ACSAC 2023, for the others). It travels in Shield's own signed
+   set and is never written into adware-sdk.txt.
+
+   The same holds for Shield's OWN list of adware server addresses (electron/own-ad-hosts.json), which is
+   searched for inside an app's code: single facts, each taken by hand from a published report and named next
+   to it — addroider.com (Check Point Research, SimBad, 2019), d3hdbjtb1686tn.cloudfront.net (CloudSEK, SpinOk,
+   2023), bearsplay.com / azhituo.com / spinsok.com (Kaspersky Securelist, Necro, 2024). No vendor's indicator
+   list is copied.
+
 The hash database and the IOC set also include indicators from:
 
 7. CERT-AGID — Agenzia per l'Italia Digitale (Italy's government CERT)
