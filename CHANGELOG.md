@@ -2,6 +2,11 @@
 
 What changed in each automated update, newest first. Counts only — the exact entries are in the commit diff.
 
+## 2026-11-16 · 12:49 UTC
+
+- **APK hashes**: +15 / −0 (now 3,487)
+  - added — Unknown 5, IRATA 3, SpyNote 3, AhMyth 1, AndroRAT 1, Mirai 1, +1 more
+
 ## 2026-11-15 · 11:59 UTC
 
 - **APK hashes**: +8 / −0 (now 3,472)
