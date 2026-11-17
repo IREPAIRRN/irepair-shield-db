@@ -10,13 +10,13 @@ di spyware mercenario. Viene ricostruito, firmato e pubblicato qui ogni giorno i
 
 ## Today
 
-Last build: **2026-11-16 12:49 UTC**
+Last build: **2026-11-17 13:31 UTC**
 
 | File | What it holds | Entries | Version |
 |---|---|---:|---|
-| `malware-signatures.json` | Android package names of known stalkerware / malware | 618 | v20261116 |
-| `malware-hashes-core.json` | SHA-256 of known malicious Android APKs | 3,487 | v20261116 |
-| `malware-iocs.json` | Indicators of stalkerware and mercenary spyware (Android + iPhone) | 7,467 | v20261116 |
+| `malware-signatures.json` | Android package names of known stalkerware / malware | 618 | v20261117 |
+| `malware-hashes-core.json` | SHA-256 of known malicious Android APKs | 3,506 | v20261117 |
+| `malware-iocs.json` | Indicators of stalkerware and mercenary spyware (Android + iPhone) | 7,467 | v20261117 |
 
 Indicators by kind: 716 app packages · 83 process names · 49 file paths · 6,554 domains · 65 e-mail accounts.
 
@@ -58,13 +58,13 @@ Indicators:
 Browser-check host lists (`webhosts-*.txt`, used only to compare the sites a phone's browser lets send
 notifications; a match is "on a pop-up / ad list" or "on a threat intelligence list", never proof of malware):
 - Pop-up/ad, scam and threat host data: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0)
-  - `webhosts-tif.txt`: 1,464,000 domains, v20261116
-  - `webhosts-popupads.txt`: 77,523 domains, v20261116
+  - `webhosts-tif.txt`: 1,461,073 domains, v20261117
+  - `webhosts-popupads.txt`: 77,801 domains, v20261117
 - These files are redistributed under GPL-3.0 with the author's permission; the licence text is in
   [LICENSE-HAGEZI-GPL-3.0.txt](LICENSE-HAGEZI-GPL-3.0.txt). Each file keeps HaGeZi's original header and states
   that it was converted (normalised and sorted) and when.
 
-Advertising-SDK fingerprints (`adware-sdk.txt`, 45 Java package prefixes, v20261116):
+Advertising-SDK fingerprints (`adware-sdk.txt`, 45 Java package prefixes, v20261117):
 - Contains information from the Exodus Privacy tracker database, which is made available under the Open Database License (ODbL)
 - Source: Exodus Privacy — https://etip.exodus-privacy.eu.org. **Taken from Exodus Privacy, MODIFIED.**
 - Licence: **Open Database License (ODbL) 1.0** — see [LICENSE-ODbL-1.0.txt](LICENSE-ODbL-1.0.txt),
