@@ -1,0 +1,3 @@
+# Signature files (*.sig) are base64 Ed25519 signatures, not Standard ML code:
+# keep them out of GitHub's language statistics.
+*.sig linguist-generated
