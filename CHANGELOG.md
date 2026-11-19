@@ -2,6 +2,11 @@
 
 What changed in each automated update, newest first. Counts only — the exact entries are in the commit diff.
 
+## 2026-11-19 · 13:17 UTC
+
+- **APK hashes**: +8 / −0 (now 3,562)
+  - added — AndroRAT 4, Unknown 4
+
 ## 2026-11-18 · 13:07 UTC
 
 - **APK hashes**: +48 / −0 (now 3,554)
