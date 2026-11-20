@@ -2,6 +2,11 @@
 
 What changed in each automated update, newest first. Counts only — the exact entries are in the commit diff.
 
+## 2026-11-20 · 12:58 UTC
+
+- **APK hashes**: +20 / −0 (now 3,582)
+  - added — SpyNote 9, Unknown 9, GhostBat 1, TangleBot 1
+
 ## 2026-11-19 · 13:17 UTC
 
 - **APK hashes**: +8 / −0 (now 3,562)

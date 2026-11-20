@@ -1,14 +1,14 @@
 # iRepair Shield ad-SDK fingerprints (a selection from the Exodus Privacy tracker database)
 # Source: Exodus Privacy tracker database – https://etip.exodus-privacy.eu.org (ODbL 1.0, see LICENSE-ODbL-1.0.txt)
-# Modified: selection made by the iRepair Shield build on 2026-11-19 — advertising trackers only (no crash-reporting
+# Modified: selection made by the iRepair Shield build on 2026-11-20 — advertising trackers only (no crash-reporting
 #   ones), and of those only the curated aggressive ad networks (electron/adwareSdk.js AGGRESSIVE, which names no
 #   analytics or crash SDK; Google AdMob and Meta Audience Network deliberately excluded), keeping only each
 #   tracker's code signature and name, lower-cased, de-duplicated, sorted
 # Licence: Open Database License (ODbL) 1.0 – https://opendatacommons.org/licenses/odbl/1-0/
 # Attribution: Contains information from the Exodus Privacy tracker database, which is made available under the Open Database License (ODbL)
 # Shield-List: adware-sdk
-# Shield-Version: 20261119
-# Shield-Updated: 2026-11-19
+# Shield-Version: 20261120
+# Shield-Updated: 2026-11-20
 # Shield-Count: 45
 coelib.c.couluslibrary	Coulus Coelib
 com.adcash.mobileads.	Adcash
