@@ -2,6 +2,11 @@
 
 What changed in each automated update, newest first. Counts only — the exact entries are in the commit diff.
 
+## 2026-11-21 · 12:43 UTC
+
+- **APK hashes**: +17 / −0 (now 3,599)
+  - added — Unknown 15, StreamRAT 2
+
 ## 2026-11-20 · 12:58 UTC
 
 - **APK hashes**: +20 / −0 (now 3,582)
