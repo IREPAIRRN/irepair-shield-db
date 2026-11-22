@@ -10,13 +10,13 @@ di spyware mercenario. Viene ricostruito, firmato e pubblicato qui ogni giorno i
 
 ## Today
 
-Last build: **2026-11-21 12:43 UTC**
+Last build: **2026-11-22 14:34 UTC**
 
 | File | What it holds | Entries | Version |
 |---|---|---:|---|
-| `malware-signatures.json` | Android package names of known stalkerware / malware | 618 | v20261121 |
-| `malware-hashes-core.json` | SHA-256 of known malicious Android APKs | 3,599 | v20261121 |
-| `malware-iocs.json` | Indicators of stalkerware and mercenary spyware (Android + iPhone) | 7,467 | v20261121 |
+| `malware-signatures.json` | Android package names of known stalkerware / malware | 618 | v20261122 |
+| `malware-hashes-core.json` | SHA-256 of known malicious Android APKs | 3,602 | v20261122 |
+| `malware-iocs.json` | Indicators of stalkerware and mercenary spyware (Android + iPhone) | 7,467 | v20261122 |
 
 Indicators by kind: 716 app packages · 83 process names · 49 file paths · 6,554 domains · 65 e-mail accounts.
 
@@ -48,23 +48,22 @@ Indicators:
 - CERT-AGID (AgID) campaign IoC (CC BY 4.0)
 - Security Without Borders (Exodus, 2019)
 - AssoEchap / Coalition Against Stalkerware — stalkerware-indicators (CC BY 4.0)
-- ThreatFox abuse.ch (CC0)
 - URLhaus abuse.ch (CC0)
 - ipsw.me (iOS versions)
 - endoflife.date (Android support, MIT)
 - CISA KEV (exploited Android flaws)
-- Amnesty International Security Lab and partners — Mobile Verification Toolkit indicator sets, including: NSO Group Pegasus, Predator Spyware, RCS Lab Spyware, Stalkerware, Surveillance campaign linked to mercenary spyware compa…, Quadream KingSpawn, Operation Triangulation, WyrmSpy and DragonEgg, Wintego Helios, NoviSpy
+- Amnesty International Security Lab and partners — Mobile Verification Toolkit indicator sets, including: NSO Group Pegasus, Predator Spyware, RCS Lab Spyware, Stalkerware, Surveillance campaign linked to mercenary spyware compa…, Quadream KingSpawn, Operation Triangulation, WyrmSpy and DragonEgg, Wintego Helios, NoviSpy, EagleMsgSpy
 
 Browser-check host lists (`webhosts-*.txt`, used only to compare the sites a phone's browser lets send
 notifications; a match is "on a pop-up / ad list" or "on a threat intelligence list", never proof of malware):
 - Pop-up/ad, scam and threat host data: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0)
-  - `webhosts-tif.txt`: 1,577,490 domains, v20261121
-  - `webhosts-popupads.txt`: 72,984 domains, v20261121
+  - `webhosts-tif.txt`: 1,895,500 domains, v20261122
+  - `webhosts-popupads.txt`: 73,218 domains, v20261122
 - These files are redistributed under GPL-3.0 with the author's permission; the licence text is in
   [LICENSE-HAGEZI-GPL-3.0.txt](LICENSE-HAGEZI-GPL-3.0.txt). Each file keeps HaGeZi's original header and states
   that it was converted (normalised and sorted) and when.
 
-Advertising-SDK fingerprints (`adware-sdk.txt`, 45 Java package prefixes, v20261121):
+Advertising-SDK fingerprints (`adware-sdk.txt`, 45 Java package prefixes, v20261122):
 - Contains information from the Exodus Privacy tracker database, which is made available under the Open Database License (ODbL)
 - Source: Exodus Privacy — https://etip.exodus-privacy.eu.org. **Taken from Exodus Privacy, MODIFIED.**
 - Licence: **Open Database License (ODbL) 1.0** — see [LICENSE-ODbL-1.0.txt](LICENSE-ODbL-1.0.txt),
