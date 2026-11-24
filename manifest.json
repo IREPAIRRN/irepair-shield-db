@@ -1,28 +1,28 @@
 {
-  "built_at": "2026-11-23T14:44:59.048Z",
+  "built_at": "2026-11-24T14:55:28.040Z",
   "files": {
     "malware-signatures.json": {
-      "version": 20261123,
-      "updated": "2026-11-23",
+      "version": 20261124,
+      "updated": "2026-11-24",
       "bytes": 54120,
-      "sha256": "9e906927c1e9ab956fe16331374e945950e431a97080341641dad7c5f2471a4a"
+      "sha256": "b58571ff2db829e7ca1cf00f7667ec2ed8ce87a5c480b501e7a5b6de40b3bbfd"
     },
     "malware-hashes-core.json": {
-      "version": 20261123,
-      "updated": "2026-11-23",
-      "bytes": 677255,
-      "sha256": "71284fb4a209598f7e3faa04365889b1172757bc3cc42ac3a1ce2f486a11b985"
+      "version": 20261124,
+      "updated": "2026-11-24",
+      "bytes": 677994,
+      "sha256": "0eb5a0d6a2a51fa8800c372306700b53cf9a012f62b8674db3069d7f54b394f0"
     },
     "malware-iocs.json": {
-      "version": 20261123,
-      "updated": "2026-11-23",
-      "bytes": 2494346,
-      "sha256": "442ad638684efdf54dbe2221229bc82d04efa8ddc69c23e8e6925fa43a61a5ca"
+      "version": 20261124,
+      "updated": "2026-11-24",
+      "bytes": 2509780,
+      "sha256": "ddd285ee5dcac82e2daaf65217e00ff4b1a6c0f189467a4f2125c2c65b3451eb"
     }
   },
   "entries": {
     "signatures": 618,
-    "hashes": 3618,
+    "hashes": 3622,
     "iocs": 7467
   },
   "ioc_breakdown": {
@@ -68,29 +68,29 @@
   "webhosts": {
     "tif": {
       "file": "webhosts-tif.txt",
-      "version": 20261123,
-      "updated": "2026-11-23",
-      "count": 2010239,
-      "bytes": 35818260,
-      "sha256": "1464adcd6d0f18233e0d21ea7c13c9e788fcdcef81c301fc784566b32d923f80"
+      "version": 20261124,
+      "updated": "2026-11-24",
+      "count": 1928412,
+      "bytes": 34577249,
+      "sha256": "f78fad1850a6655f5fea8a17b795625c8d12b2ade6899ee6fd06cad0e7380667"
     },
     "popupads": {
       "file": "webhosts-popupads.txt",
-      "version": 20261123,
-      "updated": "2026-11-23",
-      "count": 69790,
-      "bytes": 1274687,
-      "sha256": "f90085621310e96c84ba1347baa8fb6d707c513f1921894303fc213b53ecd536"
+      "version": 20261124,
+      "updated": "2026-11-24",
+      "count": 71069,
+      "bytes": 1296768,
+      "sha256": "318f6b41eed8b616da59bb20d94a47ffb89dfe1e76c176410fd615f34528a6a0"
     }
   },
   "webhosts_attribution": "Pop-up/ad, scam and threat host data: HaGeZi DNS Blocklists – https://github.com/hagezi/dns-blocklists (GPL-3.0)",
   "adware_sdk": {
     "file": "adware-sdk.txt",
-    "version": 20261123,
-    "updated": "2026-11-23",
+    "version": 20261124,
+    "updated": "2026-11-24",
     "count": 45,
     "bytes": 2187,
-    "sha256": "c6fcff6fd99d0ba9116ed9088b3cbb60e1540039be94abb6a4bce8ce0acfeb18",
+    "sha256": "4f4b691fc6934b36516187823dfcc21eadea1bf4cb839f7d9af339aaf07b26cb",
     "license_file": "LICENSE-ODbL-1.0.txt"
   },
   "adware_sdk_attribution": "Contains information from the Exodus Privacy tracker database, which is made available under the Open Database License (ODbL)"
