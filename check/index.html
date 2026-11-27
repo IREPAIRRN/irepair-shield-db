@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shield Check: stalkerware su Android</title>
+<meta name="description" content="Controllo gratuito nel browser: collega un telefono Android via USB e verifica se contiene stalkerware conosciuto. Solo lettura, nessun dato lascia il computer.">
+<style>
+:root{--paper:#f3f6fb;--card:#ffffff;--ink:#0e2238;--soft:#4a5d73;--line:#d5deea;--blue:#1257c9;--blue-ink:#ffffff;--ok:#0b7a53;--ok-bg:#e4f5ee;--bad:#b3261e;--bad-bg:#fdecea;--warn-bg:#fff4d6;--warn-line:#e2b93b}
+@media (prefers-color-scheme:dark){:root{--paper:#0c1524;--card:#14213a;--ink:#e8eef8;--soft:#a5b4c8;--line:#27375a;--blue:#6ea8ff;--blue-ink:#06122a;--ok:#5fd6a8;--ok-bg:#0f2f27;--bad:#ff8a80;--bad-bg:#3a1512;--warn-bg:#2e2710;--warn-line:#8a6f1c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.55 "Segoe UI",system-ui,-apple-system,Roboto,sans-serif}
+main{max-width:44rem;margin:0 auto;padding:1.25rem 1rem 4rem}
+header{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-bottom:2.2rem}
+.brand{font-weight:700;letter-spacing:-.01em}
+.lang button{font:inherit;font-size:.85rem;background:none;border:1px solid var(--line);color:var(--soft);padding:.25rem .6rem;border-radius:999px;cursor:pointer}
+.lang button[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+h1{font-size:clamp(1.9rem,6vw,2.7rem);line-height:1.12;letter-spacing:-.02em;margin:0 0 .8rem;font-weight:750;text-wrap:balance}
+.lead{color:var(--soft);font-size:1.1rem;margin:0 0 1.6rem;max-width:36rem}
+.cable{display:flex;align-items:center;gap:0;margin:0 0 1.8rem;color:var(--soft)}
+.cable i{flex:1;height:2px;background:repeating-linear-gradient(90deg,var(--line) 0 10px,transparent 10px 16px)}
+.cable span{border:2px solid var(--line);border-radius:.6rem;padding:.35rem .7rem;font-size:.85rem;background:var(--card)}
+button.go{font:inherit;font-weight:700;font-size:1.15rem;background:var(--blue);color:var(--blue-ink);border:0;border-radius:.8rem;padding:.95rem 1.5rem;cursor:pointer;width:100%}
+button.go:disabled{opacity:.45;cursor:not-allowed}
+button.ghost,.demo{font:inherit;font-size:.95rem;background:none;border:0;color:var(--blue);text-decoration:underline;cursor:pointer;padding:.6rem 0}
+button:focus-visible,a:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+#status{min-height:1.6em;margin:.7rem 0 0;color:var(--soft)}
+#nousb{background:var(--bad-bg);color:var(--bad);padding:.8rem 1rem;border-radius:.6rem;margin:0 0 1rem}
+section{margin-top:2.2rem}
+h2{font-size:1.25rem;margin:0 0 .5rem;letter-spacing:-.01em}
+.safe{background:var(--warn-bg);border-left:4px solid var(--warn-line);padding:1rem 1.1rem;border-radius:0 .6rem .6rem 0}
+.safe ul,.steps{margin:.3rem 0 0;padding-left:1.2rem}
+.safe li,.steps li{margin:.35rem 0}
+.result{background:var(--card);border:1px solid var(--line);border-top:6px solid var(--ok);border-radius:.8rem;padding:1.3rem 1.2rem;margin-top:1.6rem}
+.result.bad{border-top-color:var(--bad)}
+.result h2{font-size:1.5rem}
+.result.ok h2{color:var(--ok)}.result.bad h2{color:var(--bad)}
+.note{margin:.2rem 0 1rem}
+.hits{list-style:none;padding:0;margin:0 0 1.2rem}
+.hits li{display:grid;grid-template-columns:1fr auto;gap:.1rem .8rem;padding:.7rem 0;border-top:1px solid var(--line)}
+.hits .cat{color:var(--bad);font-size:.9rem}
+.hits code{grid-column:1/-1;color:var(--soft);font-size:.85rem;overflow-wrap:anywhere}
+.next{padding-left:1.2rem;margin:.3rem 0 1rem}.next li{margin:.4rem 0}
+h3{font-size:1.05rem;margin:0}
+.meta{color:var(--soft);font-size:.85rem;border-top:1px solid var(--line);padding-top:.8rem;margin:1rem 0 .6rem}
+.row{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;align-items:center}
+a.cta{color:var(--blue);font-weight:700}
+footer{margin-top:3rem;color:var(--soft);font-size:.9rem}
+footer a{color:inherit}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <span class="brand">iRepair Shield Check</span>
+    <span class="lang"><button type="button" data-lang="it">Italiano</button> <button type="button" data-lang="en">English</button></span>
+  </header>
+
+  <h1 data-t="title"></h1>
+  <p class="lead" data-t="lead"></p>
+  <div class="cable" aria-hidden="true"><span>Android</span><i></i><span>USB</span><i></i><span>Chrome / Edge</span></div>
+
+  <p id="nousb" hidden data-t="noUsb"></p>
+  <button class="go" id="start" type="button" data-t="start"></button>
+  <button class="demo" id="demo" type="button" data-t="demo"></button>
+  <p id="status" role="status" aria-live="polite"></p>
+  <div id="result" class="result" hidden></div>
+
+  <section class="safe">
+    <h2 data-t="safeTitle"></h2>
+    <ul><li data-t="safe1"></li><li data-t="safe2"></li><li data-t="safe3"></li></ul>
+  </section>
+
+  <section>
+    <h2 data-t="how"></h2>
+    <ol class="steps"><li data-t="how1"></li><li data-t="how2"></li><li data-t="how3"></li></ol>
+  </section>
+
+  <footer>
+    <p data-t="only"></p>
+    <p><a href="https://github.com/IREPAIRRN/irepair-shield-db">github.com/IREPAIRRN/irepair-shield-db</a> · <a href="https://i-repair.it/irepair-shield/">i-repair.it/irepair-shield</a></p>
+  </footer>
+</main>
+<script type="module" src="app.js"></script>
+</body>
+</html>
