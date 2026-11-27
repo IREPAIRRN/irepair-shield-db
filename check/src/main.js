@@ -11,9 +11,12 @@ const READ_COMMANDS = Object.freeze({
   brand: 'getprop ro.product.brand',
   android: 'getprop ro.build.version.release',
 });
-const DB_BASE = '../';
+// Config from the root element (#ssc-root): the same script runs on GitHub Pages and embedded in i-repair.it / irepairrimini.com
+const ROOT = typeof document !== 'undefined' ? document.getElementById('ssc-root') : null;
+const CFG = (ROOT && ROOT.dataset) || {};
+const DB_BASE = CFG.db || (typeof location !== 'undefined' && /github\.io$|^localhost$|^127\./.test(location.hostname) ? '../' : 'https://irepairrn.github.io/irepair-shield-db/');
 const DB_KEY_B64 = 'gUHODJCm2LX6y+BzV5p8wrOwvIxCeX4dcWnmPFmq0jU=';   // Ed25519, same key as public-keys.json / the app
-const SHIELD_URL = 'https://i-repair.it/irepair-shield/?utm_source=shield-check&utm_medium=tool';
+const SHIELD_URL = CFG.shield || 'https://i-repair.it/irepair-shield/?utm_source=shield-check&utm_medium=tool';
 
 const T = {
   it: {
@@ -97,9 +100,10 @@ const T = {
     cat: {},
   },
 };
-let lang = (new URLSearchParams(location.search).get('lang') || navigator.language || 'en').toLowerCase().startsWith('it') ? 'it' : 'en';
+let lang = (CFG.lang || new URLSearchParams(location.search).get('lang') || navigator.language || 'en').toLowerCase().startsWith('it') ? 'it' : 'en';
 const t = (k, vars) => String(T[lang][k] ?? T.en[k] ?? k).replace(/\{(\w+)\}/g, (_, v) => (vars && v in vars ? vars[v] : ''));
-const $ = (id) => document.getElementById(id);
+const $ = (id) => document.getElementById('ssc-' + id);
+const $$ = (sel) => (ROOT || document).querySelectorAll(sel);
 const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
 
 // ── database ────────────────────────────────────────────────────────────────
@@ -170,9 +174,9 @@ function paintCounts() {
   $('dbVer').textContent = 'DB ' + counts.version;
 }
 function paint() {
-  document.documentElement.lang = lang;
-  document.querySelectorAll('[data-t]').forEach((e) => { if (e.hasAttribute('data-html')) e.innerHTML = t(e.dataset.t); else e.textContent = t(e.dataset.t); });
-  document.querySelectorAll('[data-lang]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lang === lang)));
+  if (!CFG.lang) document.documentElement.lang = lang;
+  $$('[data-t]').forEach((e) => { if (e.hasAttribute('data-html')) e.innerHTML = t(e.dataset.t); else e.textContent = t(e.dataset.t); });
+  $$('[data-lang]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lang === lang)));
   $('nousb').hidden = !!navigator.usb; $('start').disabled = !navigator.usb;
   paintCounts();
   if (last) showResult(...last); else if (state === 'idle') { $('status').textContent = t('stIdle'); setState('idle', '?', t('gIdle')); }
@@ -235,7 +239,7 @@ async function loadCounts() {
   } catch { /* counts stay «—» */ }
 }
 if (typeof document !== 'undefined') {
-  document.querySelectorAll('[data-lang]').forEach((b) => b.addEventListener('click', () => { lang = b.dataset.lang; paint(); }));
+  $$('[data-lang]').forEach((b) => b.addEventListener('click', () => { lang = b.dataset.lang; paint(); }));
   $('start').addEventListener('click', () => go(false));
   $('demo').addEventListener('click', () => go(true));
   paint(); loadCounts();
