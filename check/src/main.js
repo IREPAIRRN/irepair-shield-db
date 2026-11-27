@@ -17,8 +17,9 @@ const SHIELD_URL = 'https://i-repair.it/irepair-shield/?utm_source=shield-check&
 
 const T = {
   it: {
-    title: 'Controlla se sul tuo Android c\'è uno stalkerware conosciuto',
-    lead: 'Collega il telefono con il cavo USB e premi il pulsante. Il controllo avviene in questa pagina, sul tuo computer: dal telefono non esce nulla.',
+    eyebrow: 'iRepair Shield Check, gratuito:', title: 'Collega il tuo Android.', titleAccent: 'Scopri se ti spiano.',
+    bFree: 'Gratis, nel browser', bRead: 'Solo lettura', bLocal: 'Nessun dato inviato', howLabel: '3 passaggi',
+    lead: 'Confronta le app del telefono con il database firmato di iRepair Shield: stalkerware e spyware conosciuti. Il controllo avviene sul tuo computer, dal telefono non esce nulla.',
     safeTitle: 'Prima di iniziare',
     safe1: 'Se temi che qualcuno ti controlli, usa un computer che quella persona non usa.',
     safe2: 'Questa pagina legge soltanto. Non installa, non rimuove e non cambia niente sul telefono.',
@@ -46,8 +47,9 @@ const T = {
     cat: { Stalkerware: 'Stalkerware', 'Mercenary spyware': 'Spyware mercenario', Trojan: 'Trojan', Watchware: 'App di controllo', Spyware: 'Spyware' },
   },
   en: {
-    title: 'Check your Android for known stalkerware',
-    lead: 'Plug the phone in with a USB cable and press the button. The check runs in this page, on your computer: nothing leaves the phone.',
+    eyebrow: 'iRepair Shield Check, free:', title: 'Plug in your Android.', titleAccent: 'See if someone is spying.',
+    bFree: 'Free, in the browser', bRead: 'Read-only', bLocal: 'No data sent', howLabel: '3 steps',
+    lead: 'Compares the phone\'s apps with the signed iRepair Shield database of known stalkerware and spyware. The check runs on your computer; nothing leaves the phone.',
     safeTitle: 'Before you start',
     safe1: 'If you fear someone is watching you, use a computer that person does not use.',
     safe2: 'This page only reads. It never installs, removes or changes anything on the phone.',
