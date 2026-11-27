@@ -2,6 +2,11 @@
 
 What changed in each automated update, newest first. Counts only — the exact entries are in the commit diff.
 
+## 2026-11-27 · 13:56 UTC
+
+- **APK hashes**: +12 / −0 (now 3,645)
+  - added — Unknown 12
+
 ## 2026-11-26 · 13:57 UTC
 
 - **APK hashes**: +3 / −0 (now 3,633)
