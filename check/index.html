@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shield Check: stalkerware su Android</title>
+<meta name="description" content="Controllo gratuito nel browser: collega un telefono Android via USB e verifica se contiene stalkerware conosciuto. Solo lettura, nessun dato lascia il computer.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,900&family=Inter:wght@400;600;700&family=Space+Mono&display=swap" rel="stylesheet">
+<style>
+/* Same look as i-repair.it/irepair-shield/ (pagine/irepair-shield.html): black, cyan, Bricolage Grotesque, Inter, Space Mono */
+:root{--bg:#0a0a0a;--card:#141414;--card2:#1a1a1a;--cyan:#00c2ff;--gold:#fbbf24;--green:#22c55e;--ok:#16b87f;--red:#ff5c5c;--text:#fff;--text2:#d4d4d8;--text3:#a1a1aa;--border:rgba(255,255,255,.08);--border2:rgba(255,255,255,.14);--r:10px;--r2:16px;--r3:20px}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;background:radial-gradient(900px 480px at 85% -10%,rgba(0,194,255,.14),transparent 70%),var(--bg);color:var(--text);font:16px/1.6 'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:46rem;margin:0 auto;padding:22px 16px 64px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:48px}
+.brand{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:18px;color:#fff;text-decoration:none;letter-spacing:-.3px}
+.brand b{color:var(--cyan)}
+.lang{display:flex;gap:6px}
+.lang button{font:600 12px 'Inter',sans-serif;background:var(--card);border:1px solid var(--border2);color:var(--text3);padding:6px 14px;border-radius:100px;cursor:pointer}
+.lang button[aria-pressed=true]{background:rgba(0,194,255,.08);border-color:rgba(0,194,255,.35);color:var(--cyan)}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.pill{display:inline-flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--border2);border-radius:100px;padding:6px 14px;font-size:12px;font-weight:600;color:var(--text2)}
+.pill.cyan{background:rgba(0,194,255,.08);border-color:rgba(0,194,255,.2);color:var(--cyan)}
+.pill.green{background:rgba(34,197,94,.08);border-color:rgba(34,197,94,.22);color:var(--green)}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 10px var(--cyan)}
+h1{font-family:'Bricolage Grotesque',sans-serif;font-weight:900;font-size:clamp(38px,7vw,58px);line-height:1.02;letter-spacing:-2px;margin:0 0 18px;text-wrap:balance}
+h1 .eyebrow{display:block;font:700 13px 'Inter',sans-serif;letter-spacing:1.4px;text-transform:uppercase;color:var(--cyan);margin-bottom:12px}
+h1 .accent{color:var(--cyan);text-shadow:0 0 48px rgba(0,194,255,.45)}
+.lead{font-family:'Bricolage Grotesque',sans-serif;font-weight:600;font-size:20px;line-height:1.35;letter-spacing:-.3px;color:rgba(255,255,255,.86);margin:0 0 28px;max-width:34rem}
+.console{background:var(--card);border:1px solid var(--border2);border-radius:var(--r3);padding:22px;margin-bottom:12px}
+.cable{display:flex;align-items:center;margin:0 0 20px;font:12px 'Space Mono',monospace;color:var(--text3)}
+.cable i{flex:1;height:1px;background:repeating-linear-gradient(90deg,rgba(0,194,255,.5) 0 8px,transparent 8px 14px)}
+.cable span{border:1px solid var(--border2);border-radius:8px;padding:6px 10px;background:var(--card2)}
+button.go{display:flex;width:100%;align-items:center;justify-content:center;font:700 17px 'Inter',sans-serif;background:var(--cyan);color:#000;border:0;border-radius:100px;padding:16px 26px;cursor:pointer;box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 10px 40px -12px rgba(0,194,255,.7);transition:transform .2s}
+button.go:hover:not(:disabled){transform:translateY(-1px)}
+button.go:disabled{opacity:.4;cursor:not-allowed;box-shadow:none}
+.demo,button.ghost{font:600 14px 'Inter',sans-serif;background:none;border:0;color:var(--cyan);cursor:pointer;padding:12px 0 0;text-decoration:underline;text-underline-offset:3px}
+button:focus-visible,a:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+#status{min-height:1.5em;margin:12px 0 0;font:13px 'Space Mono',monospace;color:var(--text3)}
+#nousb{background:rgba(255,92,92,.08);border:1px solid rgba(255,92,92,.3);color:#ffb4b4;padding:12px 14px;border-radius:var(--r);margin:0 0 16px;font-size:14px}
+section{margin-top:40px}
+h2{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:22px;letter-spacing:-.4px;margin:0 0 10px}
+.label{font:12px 'Space Mono',monospace;color:var(--cyan);letter-spacing:.5px;margin:0 0 6px}
+.safe{background:rgba(251,191,36,.06);border:1px solid rgba(251,191,36,.25);border-radius:var(--r2);padding:18px 20px}
+.safe h2{color:var(--gold)}
+.safe ul{margin:0;padding-left:20px;color:var(--text2)}
+.steps{margin:0;padding:0;list-style:none;counter-reset:s}
+.steps li{counter-increment:s;position:relative;padding:12px 0 12px 46px;border-top:1px solid var(--border);color:var(--text2)}
+.steps li::before{content:counter(s);position:absolute;left:0;top:10px;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font:700 13px 'Space Mono',monospace;color:var(--cyan);border:1px solid rgba(0,194,255,.35)}
+.safe li{margin:6px 0}
+.result{background:var(--card);border:1px solid var(--border2);border-radius:var(--r3);padding:24px 22px;margin-top:20px;position:relative;overflow:hidden}
+.result::before{content:'';position:absolute;left:0;top:0;right:0;height:3px;background:var(--ok)}
+.result.bad::before{background:var(--red)}
+.result h2{font-size:26px;line-height:1.15}
+.result.ok h2{color:var(--ok)}.result.bad h2{color:var(--red)}
+.note{margin:4px 0 18px;color:var(--text2)}
+.hits{list-style:none;padding:0;margin:0 0 20px}
+.hits li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:12px 0;border-top:1px solid var(--border)}
+.hits strong{font-family:'Bricolage Grotesque',sans-serif;font-size:18px}
+.hits .cat{align-self:center;background:rgba(255,92,92,.1);border:1px solid rgba(255,92,92,.3);color:var(--red);border-radius:100px;padding:3px 10px;font-size:12px;font-weight:600}
+.hits code{grid-column:1/-1;font:13px 'Space Mono',monospace;color:var(--text3);overflow-wrap:anywhere}
+h3{font-family:'Bricolage Grotesque',sans-serif;font-size:18px;margin:0 0 6px}
+.next{padding-left:20px;margin:0 0 18px;color:var(--text2)}.next li{margin:6px 0}
+.meta{font:12px 'Space Mono',monospace;color:var(--text3);border-top:1px solid var(--border);padding-top:14px;margin:18px 0 10px}
+.row{display:flex;flex-wrap:wrap;gap:8px 22px;align-items:center}
+a.cta{display:inline-flex;align-items:center;justify-content:center;background:var(--cyan);color:#000;font-weight:700;font-size:14px;padding:12px 22px;border-radius:100px;text-decoration:none}
+footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--border);color:var(--text3);font-size:13px}
+footer a{color:var(--text2)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <a class="brand" href="https://i-repair.it/irepair-shield/">iRepair <b>Shield</b> Check</a>
+    <span class="lang"><button type="button" data-lang="it">IT</button><button type="button" data-lang="en">EN</button></span>
+  </header>
+
+  <div class="badges">
+    <span class="pill cyan"><span class="dot"></span><span data-t="bFree"></span></span>
+    <span class="pill green" data-t="bRead"></span>
+    <span class="pill" data-t="bLocal"></span>
+  </div>
+  <h1><span class="eyebrow" data-t="eyebrow"></span><span data-t="title"></span> <span class="accent" data-t="titleAccent"></span></h1>
+  <p class="lead" data-t="lead"></p>
+
+  <div class="console">
+    <div class="cable" aria-hidden="true"><span>Android</span><i></i><span>USB</span><i></i><span>Chrome / Edge</span></div>
+    <p id="nousb" hidden data-t="noUsb"></p>
+    <button class="go" id="start" type="button" data-t="start"></button>
+    <button class="demo" id="demo" type="button" data-t="demo"></button>
+    <p id="status" role="status" aria-live="polite"></p>
+  </div>
+  <div id="result" class="result" hidden></div>
+
+  <section class="safe">
+    <h2 data-t="safeTitle"></h2>
+    <ul><li data-t="safe1"></li><li data-t="safe2"></li><li data-t="safe3"></li></ul>
+  </section>
+
+  <section>
+    <p class="label" data-t="howLabel"></p><h2 data-t="how"></h2>
+    <ol class="steps"><li data-t="how1"></li><li data-t="how2"></li><li data-t="how3"></li></ol>
+  </section>
+
+  <footer>
+    <p data-t="only"></p>
+    <p><a href="https://github.com/IREPAIRRN/irepair-shield-db">github.com/IREPAIRRN/irepair-shield-db</a> · <a href="https://i-repair.it/irepair-shield/">i-repair.it/irepair-shield</a></p>
+  </footer>
+</main>
+<script type="module" src="app.js"></script>
+</body>
+</html>
