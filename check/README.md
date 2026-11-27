@@ -17,3 +17,6 @@ npx esbuild check/src/main.js --bundle --format=esm --minify --target=chrome113 
 ```
 
 `?demo` runs the page with a sample phone, without a cable.
+
+After rebuilding `app.js`, update the `?v=` in `index.html` to the first 10 characters of its SHA-256
+(`sha256sum check/app.js`), so browsers do not keep the old script.
